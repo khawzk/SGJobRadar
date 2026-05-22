@@ -2,12 +2,25 @@ name: Weekly Market Skill Radar
 
 on:
   workflow_dispatch:
+    inputs:
+      countries:
+        description: "Adzuna country codes to collect"
+        required: true
+        default: "sg"
+      pages:
+        description: "Pages to fetch per tracked topic"
+        required: true
+        default: "3"
   schedule:
+    # 09:00 every Monday in Singapore/Malaysia time.
     - cron: "0 1 * * 1"
 
 permissions:
   contents: write
-  issues: write
+
+concurrency:
+  group: weekly-market-radar
+  cancel-in-progress: false
 
 jobs:
   weekly-radar:
@@ -16,35 +29,43 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: python -m pip install --upgrade pip
-
-      - name: Collect jobs
-        run: |
-          python scripts/collect_adzuna.py --countries sg --pages 1
-          python scripts/collect_usajobs.py
+      - name: Collect SG tech jobs
+        run: >
+          python scripts/collect_adzuna.py
+          --countries ${COUNTRIES}
+          --pages ${PAGES}
+          --results-per-page 20
         env:
+          COUNTRIES: ${{ github.event.inputs.countries || 'sg' }}
+          PAGES: ${{ github.event.inputs.pages || '3' }}
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
-          USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
-          USAJOBS_USER_AGENT: ${{ secrets.USAJOBS_USER_AGENT }}
 
-      - name: Extract skills and aggregate weekly stats
+      - name: Aggregate dashboard data
+        run: python scripts/aggregate_weekly.py
+
+      - name: Build Slack digest preview
         run: |
-          python scripts/extract_skills.py
-          python scripts/aggregate_weekly.py
+          mkdir -p data/weekly
+          python scripts/create_slack_digest.py --dashboard-url "${DASHBOARD_URL}" > data/weekly/slack_digest.md
+        env:
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL || 'https://khawzk.github.io/SGJobRadar/dashboard/' }}
 
-      - name: Create weekly report
-        run: python scripts/create_report.py
+      - name: Validate generated files
+        run: |
+          python -m json.tool data/latest.json > /dev/null
+          python -m py_compile scripts/*.py
 
       - name: Commit generated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update weekly market skill radar data"
-          file_pattern: data/*.json data/raw/*.json data/weekly/*.json
+          file_pattern: data/latest.json data/weekly/*.json data/weekly/*.md

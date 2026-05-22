@@ -145,30 +145,57 @@ python3 scripts/create_slack_digest.py --dashboard-url http://localhost:8000/das
 
 ## Environment Variables
 
-These are needed when collectors are implemented:
+The weekly GitHub Actions job needs these repository secrets:
 
 ```text
 ADZUNA_APP_ID
 ADZUNA_APP_KEY
-USAJOBS_API_KEY
-USAJOBS_USER_AGENT
-GITHUB_TOKEN
 ```
 
-For local development, copy [.env.example](.env.example) and fill in the values locally. Do not commit real keys.
+Optional repository variable:
+
+```text
+DASHBOARD_URL
+```
+
+For local development, copy [.env.example](.env.example) and fill in the values locally. Do not commit real keys. GitHub provides `GITHUB_TOKEN` automatically inside Actions, so it does not need to be added manually.
+
+## Weekly Automation
+
+The workflow lives at [.github/workflows/weekly-market-radar.yml](.github/workflows/weekly-market-radar.yml).
+
+It runs automatically every Monday at 09:00 Singapore/Malaysia time and can also be started manually from GitHub Actions with `workflow_dispatch`.
+
+Default weekly run:
+
+```text
+country: sg
+pages per tracked topic: 3
+tracked topics: software, frontend, backend, AI, ML, cloud, DevOps, data, cybersecurity
+```
+
+The workflow writes:
+
+```text
+data/latest.json
+data/weekly/latest_YYYY-MM-DD.json
+data/weekly/slack_digest.md
+```
+
+Raw API responses stay ignored by git. This keeps the public repository cleaner and avoids publishing source-specific tracking details.
 
 ## Start Collecting Data
 
 The first collector is SG-first by default:
 
 ```bash
-python3 scripts/collect_adzuna.py --countries sg --pages 1
+python3 scripts/collect_adzuna.py --countries sg --pages 3
 ```
 
 When SG looks good, add US:
 
 ```bash
-python3 scripts/collect_adzuna.py --countries sg us --pages 1
+python3 scripts/collect_adzuna.py --countries sg us --pages 3
 ```
 
 Useful safe test without API calls:
@@ -218,23 +245,23 @@ The dashboard includes a trust layer:
 
 ### Phase 3: Intelligence Layer
 
-- [ ] Build skill dictionary
-- [ ] Extract skills from job descriptions
-- [ ] Aggregate weekly stats
+- [x] Build skill dictionary
+- [x] Extract skills from job descriptions
+- [x] Aggregate weekly stats
 - [ ] Compare week-over-week growth
 
 ### Phase 4: Dashboard
 
-- [ ] Build static dashboard UI
-- [ ] Render top roles and skills
+- [x] Build static dashboard UI
+- [x] Render top roles and skills
 - [ ] Add SG vs US filters
-- [ ] Add project recommendation panel
+- [x] Add project recommendation panel
 
 ### Phase 5: Automation
 
-- [ ] Run pipeline weekly with GitHub Actions
+- [x] Run pipeline weekly with GitHub Actions
 - [ ] Publish GitHub Pages
-- [ ] Create weekly GitHub Issue report
+- [x] Create Slack digest preview
 
 ## Design Direction
 
