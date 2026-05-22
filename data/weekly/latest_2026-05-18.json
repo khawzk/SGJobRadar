@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T14:48:46.086263+00:00",
+  "generated_at": "2026-05-22T15:51:25.368134+00:00",
   "week_start": "2026-05-18",
   "markets": [
     "SG"
@@ -12,7 +12,7 @@
   "overview": {
     "sampled_jobs": 521,
     "total_jobs": 521,
-    "market_matches": 5238,
+    "market_matches": 5241,
     "sg_jobs": 521,
     "us_jobs": 0,
     "top_categories": [
@@ -25,11 +25,11 @@
   "demand_clusters": [
     {
       "name": "software engineer",
-      "job_count": 1401
+      "job_count": 1402
     },
     {
       "name": "data engineer",
-      "job_count": 992
+      "job_count": 993
     },
     {
       "name": "cybersecurity",
@@ -45,7 +45,7 @@
     },
     {
       "name": "backend developer",
-      "job_count": 303
+      "job_count": 304
     },
     {
       "name": "devops engineer",
@@ -465,17 +465,17 @@
     "market_matches": [
       {
         "label": "Prev",
-        "value": 4295,
+        "value": 4298,
         "estimated": true
       },
       {
         "label": "Mid",
-        "value": 4766,
+        "value": 4770,
         "estimated": true
       },
       {
         "label": "Now",
-        "value": 5238,
+        "value": 5241,
         "estimated": false
       }
     ],
@@ -831,7 +831,7 @@
     "source": "Adzuna API",
     "market": "Singapore",
     "sampled_jobs": 521,
-    "market_matches": 5238,
+    "market_matches": 5241,
     "queries": [
       "AI engineer",
       "backend developer",
