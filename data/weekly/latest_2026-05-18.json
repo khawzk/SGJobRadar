@@ -1,0 +1,880 @@
+{
+  "generated_at": "2026-05-22T14:48:46.086263+00:00",
+  "week_start": "2026-05-18",
+  "markets": [
+    "SG"
+  ],
+  "source_note": "Data source: Adzuna API. Focused on IT, software, AI, cloud, DevOps, data, and cybersecurity searches.",
+  "comparison": {
+    "has_previous_week": false,
+    "previous_week_start": null
+  },
+  "overview": {
+    "sampled_jobs": 521,
+    "total_jobs": 521,
+    "market_matches": 5238,
+    "sg_jobs": 521,
+    "us_jobs": 0,
+    "top_categories": [
+      {
+        "name": "IT Jobs",
+        "job_count": 521
+      }
+    ]
+  },
+  "demand_clusters": [
+    {
+      "name": "software engineer",
+      "job_count": 1401
+    },
+    {
+      "name": "data engineer",
+      "job_count": 992
+    },
+    {
+      "name": "cybersecurity",
+      "job_count": 843
+    },
+    {
+      "name": "AI engineer",
+      "job_count": 685
+    },
+    {
+      "name": "cloud engineer",
+      "job_count": 436
+    },
+    {
+      "name": "backend developer",
+      "job_count": 303
+    },
+    {
+      "name": "devops engineer",
+      "job_count": 282
+    },
+    {
+      "name": "frontend developer",
+      "job_count": 160
+    },
+    {
+      "name": "machine learning engineer",
+      "job_count": 136
+    }
+  ],
+  "top_skills": [
+    {
+      "name": "Cybersecurity",
+      "job_count": 64,
+      "previous_count": 0,
+      "change": 64,
+      "growth_rate": null
+    },
+    {
+      "name": "Java",
+      "job_count": 37,
+      "previous_count": 0,
+      "change": 37,
+      "growth_rate": null
+    },
+    {
+      "name": "AWS",
+      "job_count": 37,
+      "previous_count": 0,
+      "change": 37,
+      "growth_rate": null
+    },
+    {
+      "name": "React",
+      "job_count": 33,
+      "previous_count": 0,
+      "change": 33,
+      "growth_rate": null
+    },
+    {
+      "name": "CI/CD",
+      "job_count": 32,
+      "previous_count": 0,
+      "change": 32,
+      "growth_rate": null
+    },
+    {
+      "name": "Azure",
+      "job_count": 29,
+      "previous_count": 0,
+      "change": 29,
+      "growth_rate": null
+    },
+    {
+      "name": "Python",
+      "job_count": 27,
+      "previous_count": 0,
+      "change": 27,
+      "growth_rate": null
+    },
+    {
+      "name": "LLM",
+      "job_count": 20,
+      "previous_count": 0,
+      "change": 20,
+      "growth_rate": null
+    },
+    {
+      "name": "SQL",
+      "job_count": 17,
+      "previous_count": 0,
+      "change": 17,
+      "growth_rate": null
+    },
+    {
+      "name": "TypeScript",
+      "job_count": 17,
+      "previous_count": 0,
+      "change": 17,
+      "growth_rate": null
+    },
+    {
+      "name": "Terraform",
+      "job_count": 17,
+      "previous_count": 0,
+      "change": 17,
+      "growth_rate": null
+    },
+    {
+      "name": "JavaScript",
+      "job_count": 16,
+      "previous_count": 0,
+      "change": 16,
+      "growth_rate": null
+    }
+  ],
+  "skill_groups": [
+    {
+      "name": "Cloud & DevOps",
+      "total_mentions": 161,
+      "share": 0.3561946902654867,
+      "previous_count": 0,
+      "change": 161,
+      "top_skills": [
+        {
+          "name": "AWS",
+          "job_count": 37
+        },
+        {
+          "name": "CI/CD",
+          "job_count": 32
+        },
+        {
+          "name": "Azure",
+          "job_count": 29
+        },
+        {
+          "name": "Terraform",
+          "job_count": 17
+        },
+        {
+          "name": "Kubernetes",
+          "job_count": 13
+        },
+        {
+          "name": "Docker",
+          "job_count": 11
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "Cloud Platform",
+          "job_count": 75
+        },
+        {
+          "name": "Delivery Automation",
+          "job_count": 36
+        },
+        {
+          "name": "Infrastructure as Code",
+          "job_count": 17
+        },
+        {
+          "name": "Orchestration",
+          "job_count": 13
+        },
+        {
+          "name": "Containers",
+          "job_count": 11
+        },
+        {
+          "name": "Systems",
+          "job_count": 6
+        },
+        {
+          "name": "Observability",
+          "job_count": 3
+        }
+      ]
+    },
+    {
+      "name": "AI & Data",
+      "total_mentions": 81,
+      "share": 0.17920353982300885,
+      "previous_count": 0,
+      "change": 81,
+      "top_skills": [
+        {
+          "name": "Python",
+          "job_count": 27
+        },
+        {
+          "name": "LLM",
+          "job_count": 20
+        },
+        {
+          "name": "SQL",
+          "job_count": 17
+        },
+        {
+          "name": "RAG",
+          "job_count": 5
+        },
+        {
+          "name": "MLOps",
+          "job_count": 5
+        },
+        {
+          "name": "Spark",
+          "job_count": 3
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "Core AI/Data Language",
+          "job_count": 27
+        },
+        {
+          "name": "Generative AI",
+          "job_count": 25
+        },
+        {
+          "name": "Data Foundation",
+          "job_count": 17
+        },
+        {
+          "name": "MLOps",
+          "job_count": 5
+        },
+        {
+          "name": "Data Engineering",
+          "job_count": 3
+        },
+        {
+          "name": "Model API",
+          "job_count": 2
+        },
+        {
+          "name": "AI App Framework",
+          "job_count": 1
+        },
+        {
+          "name": "Retrieval Infrastructure",
+          "job_count": 1
+        }
+      ]
+    },
+    {
+      "name": "Frontend",
+      "total_mentions": 75,
+      "share": 0.16592920353982302,
+      "previous_count": 0,
+      "change": 75,
+      "top_skills": [
+        {
+          "name": "React",
+          "job_count": 33
+        },
+        {
+          "name": "TypeScript",
+          "job_count": 17
+        },
+        {
+          "name": "JavaScript",
+          "job_count": 16
+        },
+        {
+          "name": "Vue",
+          "job_count": 4
+        },
+        {
+          "name": "Angular",
+          "job_count": 3
+        },
+        {
+          "name": "Next.js",
+          "job_count": 2
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "Frontend Framework",
+          "job_count": 42
+        },
+        {
+          "name": "Frontend Language",
+          "job_count": 33
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "total_mentions": 69,
+      "share": 0.15265486725663716,
+      "previous_count": 0,
+      "change": 69,
+      "top_skills": [
+        {
+          "name": "Cybersecurity",
+          "job_count": 64
+        },
+        {
+          "name": "IAM",
+          "job_count": 3
+        },
+        {
+          "name": "SIEM",
+          "job_count": 2
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "Security Foundation",
+          "job_count": 64
+        },
+        {
+          "name": "Identity Security",
+          "job_count": 3
+        },
+        {
+          "name": "Security Monitoring",
+          "job_count": 2
+        }
+      ]
+    },
+    {
+      "name": "Backend",
+      "total_mentions": 63,
+      "share": 0.13938053097345132,
+      "previous_count": 0,
+      "change": 63,
+      "top_skills": [
+        {
+          "name": "Java",
+          "job_count": 37
+        },
+        {
+          "name": "Go",
+          "job_count": 13
+        },
+        {
+          "name": "Kafka",
+          "job_count": 7
+        },
+        {
+          "name": "Node.js",
+          "job_count": 6
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "Backend Language",
+          "job_count": 50
+        },
+        {
+          "name": "Event Streaming",
+          "job_count": 7
+        },
+        {
+          "name": "Backend Runtime",
+          "job_count": 6
+        }
+      ]
+    },
+    {
+      "name": "BI & Analytics",
+      "total_mentions": 3,
+      "share": 0.00663716814159292,
+      "previous_count": 0,
+      "change": 3,
+      "top_skills": [
+        {
+          "name": "Tableau",
+          "job_count": 2
+        },
+        {
+          "name": "Power BI",
+          "job_count": 1
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "BI Platform",
+          "job_count": 3
+        }
+      ]
+    }
+  ],
+  "deep_dive_recommendations": [
+    {
+      "track": "AI direction",
+      "focus": "Generative AI",
+      "why": "Generative AI is the most strategic AI sub-signal to deepen, even if foundational Python/SQL mentions are higher.",
+      "next_skills": [
+        "Python",
+        "LLM",
+        "RAG",
+        "MLOps"
+      ],
+      "project": "Build a RAG-based job intelligence assistant with evaluation, source citations, and weekly skill trend memory."
+    },
+    {
+      "track": "Cloud/DevOps direction",
+      "focus": "Cloud Platform",
+      "why": "Cloud Platform is the strongest Cloud/DevOps sub-signal in this sample.",
+      "next_skills": [
+        "AWS",
+        "CI/CD",
+        "Azure",
+        "Terraform"
+      ],
+      "project": "Build a deployment observability dashboard that tracks CI/CD runs, cloud spend, uptime, and incident signals."
+    }
+  ],
+  "trend_series": {
+    "sampled_jobs": [
+      {
+        "label": "Prev",
+        "value": 427,
+        "estimated": true
+      },
+      {
+        "label": "Mid",
+        "value": 474,
+        "estimated": true
+      },
+      {
+        "label": "Now",
+        "value": 521,
+        "estimated": false
+      }
+    ],
+    "market_matches": [
+      {
+        "label": "Prev",
+        "value": 4295,
+        "estimated": true
+      },
+      {
+        "label": "Mid",
+        "value": 4766,
+        "estimated": true
+      },
+      {
+        "label": "Now",
+        "value": 5238,
+        "estimated": false
+      }
+    ],
+    "cloud_devops": [
+      {
+        "label": "Prev",
+        "value": 132,
+        "estimated": true
+      },
+      {
+        "label": "Mid",
+        "value": 146,
+        "estimated": true
+      },
+      {
+        "label": "Now",
+        "value": 161,
+        "estimated": false
+      }
+    ],
+    "ai_data": [
+      {
+        "label": "Prev",
+        "value": 66,
+        "estimated": true
+      },
+      {
+        "label": "Mid",
+        "value": 74,
+        "estimated": true
+      },
+      {
+        "label": "Now",
+        "value": 81,
+        "estimated": false
+      }
+    ]
+  },
+  "growing_skills": [
+    {
+      "name": "Cybersecurity",
+      "job_count": 64,
+      "previous_count": 0,
+      "change": 64,
+      "growth_rate": null
+    },
+    {
+      "name": "Java",
+      "job_count": 37,
+      "previous_count": 0,
+      "change": 37,
+      "growth_rate": null
+    },
+    {
+      "name": "AWS",
+      "job_count": 37,
+      "previous_count": 0,
+      "change": 37,
+      "growth_rate": null
+    },
+    {
+      "name": "React",
+      "job_count": 33,
+      "previous_count": 0,
+      "change": 33,
+      "growth_rate": null
+    },
+    {
+      "name": "CI/CD",
+      "job_count": 32,
+      "previous_count": 0,
+      "change": 32,
+      "growth_rate": null
+    },
+    {
+      "name": "Azure",
+      "job_count": 29,
+      "previous_count": 0,
+      "change": 29,
+      "growth_rate": null
+    },
+    {
+      "name": "Python",
+      "job_count": 27,
+      "previous_count": 0,
+      "change": 27,
+      "growth_rate": null
+    },
+    {
+      "name": "LLM",
+      "job_count": 20,
+      "previous_count": 0,
+      "change": 20,
+      "growth_rate": null
+    },
+    {
+      "name": "SQL",
+      "job_count": 17,
+      "previous_count": 0,
+      "change": 17,
+      "growth_rate": null
+    },
+    {
+      "name": "TypeScript",
+      "job_count": 17,
+      "previous_count": 0,
+      "change": 17,
+      "growth_rate": null
+    },
+    {
+      "name": "Terraform",
+      "job_count": 17,
+      "previous_count": 0,
+      "change": 17,
+      "growth_rate": null
+    },
+    {
+      "name": "JavaScript",
+      "job_count": 16,
+      "previous_count": 0,
+      "change": 16,
+      "growth_rate": null
+    }
+  ],
+  "top_roles": [
+    {
+      "name": "Software Engineer",
+      "job_count": 90,
+      "previous_count": 0,
+      "change": 90,
+      "growth_rate": null
+    },
+    {
+      "name": "DevOps Engineer",
+      "job_count": 67,
+      "previous_count": 0,
+      "change": 67,
+      "growth_rate": null
+    },
+    {
+      "name": "AI Engineer",
+      "job_count": 64,
+      "previous_count": 0,
+      "change": 64,
+      "growth_rate": null
+    },
+    {
+      "name": "Data Engineer",
+      "job_count": 63,
+      "previous_count": 0,
+      "change": 63,
+      "growth_rate": null
+    },
+    {
+      "name": "Cybersecurity",
+      "job_count": 61,
+      "previous_count": 0,
+      "change": 61,
+      "growth_rate": null
+    },
+    {
+      "name": "Cloud Engineer",
+      "job_count": 56,
+      "previous_count": 0,
+      "change": 56,
+      "growth_rate": null
+    },
+    {
+      "name": "Backend Developer",
+      "job_count": 40,
+      "previous_count": 0,
+      "change": 40,
+      "growth_rate": null
+    },
+    {
+      "name": "Data Scientist",
+      "job_count": 31,
+      "previous_count": 0,
+      "change": 31,
+      "growth_rate": null
+    },
+    {
+      "name": "Frontend Developer",
+      "job_count": 23,
+      "previous_count": 0,
+      "change": 23,
+      "growth_rate": null
+    },
+    {
+      "name": "Other",
+      "job_count": 13,
+      "previous_count": 0,
+      "change": 13,
+      "growth_rate": null
+    }
+  ],
+  "skills_by_country": {
+    "SG": [
+      {
+        "name": "Cybersecurity",
+        "job_count": 64
+      },
+      {
+        "name": "Java",
+        "job_count": 37
+      },
+      {
+        "name": "AWS",
+        "job_count": 37
+      },
+      {
+        "name": "React",
+        "job_count": 33
+      },
+      {
+        "name": "CI/CD",
+        "job_count": 32
+      },
+      {
+        "name": "Azure",
+        "job_count": 29
+      },
+      {
+        "name": "Python",
+        "job_count": 27
+      },
+      {
+        "name": "LLM",
+        "job_count": 20
+      },
+      {
+        "name": "SQL",
+        "job_count": 17
+      },
+      {
+        "name": "TypeScript",
+        "job_count": 17
+      }
+    ]
+  },
+  "evidence_examples": [
+    {
+      "title": "AWS Cloud Engineer (Terraform)",
+      "company": "Unknown company",
+      "location": "Singapore",
+      "source_query": "backend developer",
+      "matched_skills": [
+        "AWS",
+        "CI/CD",
+        "JavaScript",
+        "Node.js",
+        "Python",
+        "Terraform"
+      ],
+      "skill_groups": [
+        "AI & Data",
+        "Backend",
+        "Cloud & DevOps",
+        "Frontend"
+      ],
+      "url": "https://www.adzuna.sg/details/5627221962?utm_medium=api"
+    },
+    {
+      "title": "Full stack engineer | Java/React",
+      "company": "Billigence",
+      "location": "Singapore",
+      "source_query": "frontend developer",
+      "matched_skills": [
+        "Java",
+        "React",
+        "Tableau"
+      ],
+      "skill_groups": [
+        "BI & Analytics",
+        "Backend",
+        "Frontend"
+      ],
+      "url": "https://www.adzuna.sg/details/5713958180?utm_medium=api"
+    },
+    {
+      "title": "Cybersecurity Platform Manager",
+      "company": "Seatrium",
+      "location": "Singapore",
+      "source_query": "cybersecurity",
+      "matched_skills": [
+        "Cybersecurity",
+        "IAM",
+        "SIEM"
+      ],
+      "skill_groups": [
+        "Security"
+      ],
+      "url": "https://www.adzuna.sg/details/5471469877?utm_medium=api"
+    },
+    {
+      "title": "Cloud Engineer",
+      "company": "Unknown company",
+      "location": "Singapore",
+      "source_query": "cloud engineer",
+      "matched_skills": [
+        "AWS",
+        "Azure",
+        "CI/CD",
+        "GCP",
+        "Jenkins",
+        "Terraform"
+      ],
+      "skill_groups": [
+        "Cloud & DevOps"
+      ],
+      "url": "https://www.adzuna.sg/details/5630542399?utm_medium=api"
+    },
+    {
+      "title": "DevOps Engineer.",
+      "company": "Tech Aalto",
+      "location": "Singapore",
+      "source_query": "devops engineer",
+      "matched_skills": [
+        "AWS",
+        "CI/CD",
+        "Docker",
+        "Jenkins",
+        "Kubernetes",
+        "Terraform"
+      ],
+      "skill_groups": [
+        "Cloud & DevOps"
+      ],
+      "url": "https://www.adzuna.sg/details/5119972593?utm_medium=api"
+    },
+    {
+      "title": "Software Engineer - Banking",
+      "company": "Unison Group",
+      "location": "Singapore",
+      "source_query": "software engineer",
+      "matched_skills": [
+        "CI/CD",
+        "Java",
+        "Linux",
+        "Python",
+        "React"
+      ],
+      "skill_groups": [
+        "AI & Data",
+        "Backend",
+        "Cloud & DevOps",
+        "Frontend"
+      ],
+      "url": "https://www.adzuna.sg/details/5726734836?utm_medium=api"
+    }
+  ],
+  "methodology": {
+    "source": "Adzuna API",
+    "market": "Singapore",
+    "sampled_jobs": 521,
+    "market_matches": 5238,
+    "queries": [
+      "AI engineer",
+      "backend developer",
+      "cloud engineer",
+      "cybersecurity",
+      "data engineer",
+      "devops engineer",
+      "frontend developer",
+      "machine learning engineer",
+      "software engineer"
+    ],
+    "skill_extraction": "Keyword dictionary from skills.yml, grouped into skillset categories.",
+    "limits": [
+      "Jobs analyzed means the postings actually read on the snapshot date for skill extraction.",
+      "Demand index means the wider market signal from the tracked search topics; use it for relative demand, not exact job count.",
+      "Skill counts depend on what employers explicitly write in job descriptions.",
+      "Real trend lines start after the next scheduled snapshot."
+    ]
+  },
+  "project_recommendations": [
+    {
+      "name": "Cloud Skill Tracker for SG Tech Jobs",
+      "why": "Azure, AWS, Kubernetes and Docker are visible in the current focused SG tech snapshot.",
+      "suggested_stack": [
+        "Python",
+        "React",
+        "Cloud APIs"
+      ]
+    },
+    {
+      "name": "AI Job Requirements Explorer",
+      "why": "LLM and RAG already appear in the first SG tech sample, but need tracking across more weeks.",
+      "suggested_stack": [
+        "Python",
+        "LLM",
+        "RAG"
+      ]
+    }
+  ],
+  "takeaways": [
+    "This dashboard is currently SG-only and tech-focused.",
+    "This snapshot has no earlier baseline yet; the next scheduled snapshot will unlock trend deltas.",
+    "React, Azure, AWS, Python and TypeScript are the strongest early skill signals in this sample.",
+    "Skillsets are grouped into Frontend, Backend, Cloud & DevOps, AI & Data, Security, and BI & Analytics."
+  ]
+}

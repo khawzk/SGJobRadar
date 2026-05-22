@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SG Tech Market Skill Radar</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="rail" aria-label="Dashboard navigation">
+        <div class="brand-mark"></div>
+        <button class="rail-button active" title="Overview">⌘</button>
+        <button class="rail-button" title="Demand">◇</button>
+        <button class="rail-button" title="Skills">▥</button>
+        <button class="rail-button" title="Reports">◌</button>
+        <div class="rail-spacer"></div>
+        <button class="rail-button" title="Settings">⚙</button>
+      </aside>
+
+      <section class="dashboard-frame">
+        <header class="dashboard-top">
+          <div>
+            <p class="eyebrow">Job Market Intelligence</p>
+            <h1>SG Tech Market Radar</h1>
+          </div>
+          <div class="top-actions">
+            <span id="snapshot-label">Snapshot loading</span>
+            <span class="live-pill">Live sample</span>
+          </div>
+        </header>
+
+        <section class="signal-grid">
+          <article class="glass-panel headline-panel">
+            <div class="soft-globe" aria-hidden="true"></div>
+            <p class="panel-kicker">Market Signal</p>
+            <h2 id="signal-title">Loading signal</h2>
+            <p id="signal-copy">Waiting for latest dashboard data.</p>
+            <div id="kpis" class="kpi-grid"></div>
+          </article>
+
+          <article class="glass-panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Next snapshot ready</p>
+                <h3>Trend Preview</h3>
+              </div>
+            </div>
+            <div id="trend-lines" class="trend-lines"></div>
+          </article>
+        </section>
+
+        <section class="analysis-grid">
+          <article class="glass-panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Relative Demand</p>
+                <h3>Demand Clusters</h3>
+              </div>
+            </div>
+            <div id="demand-chart" class="bar-chart"></div>
+          </article>
+
+          <article class="glass-panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Skillset Portfolio</p>
+                <h3>Grouped Demand</h3>
+              </div>
+            </div>
+            <div id="skill-groups" class="skill-groups"></div>
+          </article>
+
+          <article class="glass-panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Analyst Read</p>
+                <h3>Snapshot Read</h3>
+              </div>
+            </div>
+            <div id="analysis" class="analysis-copy"></div>
+          </article>
+        </section>
+
+        <section class="evidence-grid">
+          <article class="glass-panel evidence-panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Evidence Trail</p>
+                <h3>Representative Postings</h3>
+              </div>
+            </div>
+            <div id="evidence-list" class="evidence-list"></div>
+          </article>
+
+          <article class="glass-panel method-panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Direction Finder</p>
+                <h3>Dive Deeper</h3>
+              </div>
+            </div>
+            <div id="deep-dive" class="deep-dive"></div>
+          </article>
+        </section>
+
+        <section class="bottom-grid">
+          <article class="glass-panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Skill Heatmap</p>
+                <h3>Top Skills</h3>
+              </div>
+            </div>
+            <div id="skill-heatmap" class="heatmap"></div>
+          </article>
+
+          <article class="glass-panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Role Mix</p>
+                <h3>Top Roles</h3>
+              </div>
+            </div>
+            <div id="role-chart" class="mini-list"></div>
+          </article>
+
+          <article class="glass-panel project-panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Portfolio Direction</p>
+                <h3>Recommended Builds</h3>
+              </div>
+            </div>
+            <div id="projects" class="projects"></div>
+          </article>
+
+          <article class="glass-panel method-panel">
+            <div class="panel-head">
+              <div>
+                <p class="panel-kicker">Trust Layer</p>
+                <h3>Method Transparency</h3>
+              </div>
+            </div>
+            <div id="methodology" class="methodology"></div>
+          </article>
+        </section>
+
+        <footer id="source-note" class="source-note"></footer>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

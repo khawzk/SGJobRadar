@@ -1,0 +1,50 @@
+name: Weekly Market Skill Radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * 1"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  weekly-radar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip
+
+      - name: Collect jobs
+        run: |
+          python scripts/collect_adzuna.py --countries sg --pages 1
+          python scripts/collect_usajobs.py
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
+          USAJOBS_USER_AGENT: ${{ secrets.USAJOBS_USER_AGENT }}
+
+      - name: Extract skills and aggregate weekly stats
+        run: |
+          python scripts/extract_skills.py
+          python scripts/aggregate_weekly.py
+
+      - name: Create weekly report
+        run: python scripts/create_report.py
+
+      - name: Commit generated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update weekly market skill radar data"
+          file_pattern: data/*.json data/raw/*.json data/weekly/*.json

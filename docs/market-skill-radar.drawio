@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" modified="2026-05-22T00:00:00.000Z" agent="Codex" version="24.0.0" type="device">
+  <diagram id="market-skill-radar" name="Free MVP Architecture">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="SG/US Market Skill Radar - Free MVP" style="text;html=1;strokeColor=none;fillColor=none;fontSize=28;fontStyle=1;fontColor=#172033;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="700" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="githubActions" value="GitHub Actions&#xa;Weekly Schedule" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontColor=#172033;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="190" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="collectors" value="Collectors&#xa;Adzuna SG/US&#xa;USAJOBS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#172033;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="190" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="rawData" value="Raw Jobs JSON&#xa;data/raw" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f97316;fontColor=#172033;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="190" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="skills" value="Skill Extraction&#xa;skills.yml dictionary" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#7c3aed;fontColor=#172033;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="160" width="210" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="weekly" value="Weekly Aggregation&#xa;roles, skills, growth" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2fe;strokeColor=#0284c7;fontColor=#172033;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="160" width="210" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="latest" value="Dashboard JSON&#xa;data/latest.json" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef9c3;strokeColor=#ca8a04;fontColor=#172033;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="360" width="210" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="pages" value="GitHub Pages&#xa;Static Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontColor=#172033;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="540" width="210" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="issue" value="GitHub Issue&#xa;Weekly Report" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#172033;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="540" width="210" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475467;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="githubActions" target="collectors">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475467;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="collectors" target="rawData">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475467;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="rawData" target="skills">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475467;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="skills" target="weekly">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475467;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="weekly" target="latest">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475467;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="latest" target="pages">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#475467;strokeWidth=2;endArrow=block;" edge="1" parent="1" source="weekly" target="issue">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
+

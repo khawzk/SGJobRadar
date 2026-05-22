@@ -1,0 +1,165 @@
+skills:
+  - name: Python
+    aliases: [python3]
+    category: AI & Data
+    subcategory: Core AI/Data Language
+  - name: SQL
+    aliases: [postgresql, mysql, sql server, t-sql]
+    category: AI & Data
+    subcategory: Data Foundation
+  - name: Java
+    aliases: []
+    category: Backend
+    subcategory: Backend Language
+  - name: JavaScript
+    aliases: [javascript, js]
+    category: Frontend
+    subcategory: Frontend Language
+  - name: Node.js
+    aliases: [nodejs, node js]
+    category: Backend
+    subcategory: Backend Runtime
+  - name: Go
+    aliases: [golang]
+    category: Backend
+    subcategory: Backend Language
+  - name: Excel
+    aliases: [microsoft excel, spreadsheets]
+    category: BI & Analytics
+    subcategory: Productivity Analytics
+  - name: Power BI
+    aliases: [powerbi]
+    category: BI & Analytics
+    subcategory: BI Platform
+  - name: Tableau
+    aliases: []
+    category: BI & Analytics
+    subcategory: BI Platform
+  - name: React
+    aliases: [react.js, reactjs]
+    category: Frontend
+    subcategory: Frontend Framework
+  - name: TypeScript
+    aliases: [typescript, ts]
+    category: Frontend
+    subcategory: Frontend Language
+  - name: Next.js
+    aliases: [nextjs, next js]
+    category: Frontend
+    subcategory: Frontend Framework
+  - name: Vue
+    aliases: [vue.js, vuejs]
+    category: Frontend
+    subcategory: Frontend Framework
+  - name: Angular
+    aliases: [angularjs]
+    category: Frontend
+    subcategory: Frontend Framework
+  - name: AWS
+    aliases: [amazon web services, ec2, s3, lambda, eks, ecs]
+    category: Cloud & DevOps
+    subcategory: Cloud Platform
+  - name: Azure
+    aliases: [microsoft azure, azure devops, aks]
+    category: Cloud & DevOps
+    subcategory: Cloud Platform
+  - name: GCP
+    aliases: [google cloud, google cloud platform, bigquery, cloud run, gke]
+    category: Cloud & DevOps
+    subcategory: Cloud Platform
+  - name: Docker
+    aliases: [container, containers, containerization]
+    category: Cloud & DevOps
+    subcategory: Containers
+  - name: Kubernetes
+    aliases: [k8s, eks, aks, gke]
+    category: Cloud & DevOps
+    subcategory: Orchestration
+  - name: Terraform
+    aliases: [infrastructure as code, iac]
+    category: Cloud & DevOps
+    subcategory: Infrastructure as Code
+  - name: CI/CD
+    aliases: [ci cd, continuous integration, continuous deployment, github actions, gitlab ci, jenkins]
+    category: Cloud & DevOps
+    subcategory: Delivery Automation
+  - name: Jenkins
+    aliases: []
+    category: Cloud & DevOps
+    subcategory: Delivery Automation
+  - name: Prometheus
+    aliases: []
+    category: Cloud & DevOps
+    subcategory: Observability
+  - name: Grafana
+    aliases: []
+    category: Cloud & DevOps
+    subcategory: Observability
+  - name: Linux
+    aliases: [unix]
+    category: Cloud & DevOps
+    subcategory: Systems
+  - name: LLM
+    aliases: [large language model, large language models, generative ai, genai]
+    category: AI & Data
+    subcategory: Generative AI
+  - name: RAG
+    aliases: [retrieval augmented generation, retrieval-augmented generation]
+    category: AI & Data
+    subcategory: Generative AI
+  - name: LangChain
+    aliases: [langchain, langgraph]
+    category: AI & Data
+    subcategory: AI App Framework
+  - name: Vector Database
+    aliases: [vector db, vector database, pinecone, chroma, faiss, milvus, weaviate]
+    category: AI & Data
+    subcategory: Retrieval Infrastructure
+  - name: Embeddings
+    aliases: [embedding, semantic search]
+    category: AI & Data
+    subcategory: Retrieval Infrastructure
+  - name: OpenAI API
+    aliases: [openai, chatgpt api, gpt-4, gpt-5]
+    category: AI & Data
+    subcategory: Model API
+  - name: Hugging Face
+    aliases: [huggingface, transformers]
+    category: AI & Data
+    subcategory: Model Platform
+  - name: MLOps
+    aliases: [mlops, mlflow, model deployment, model monitoring]
+    category: AI & Data
+    subcategory: MLOps
+  - name: TensorFlow
+    aliases: [tensorflow]
+    category: AI & Data
+    subcategory: ML Framework
+  - name: PyTorch
+    aliases: [pytorch]
+    category: AI & Data
+    subcategory: ML Framework
+  - name: Spark
+    aliases: [apache spark]
+    category: AI & Data
+    subcategory: Data Engineering
+  - name: Kafka
+    aliases: [apache kafka]
+    category: Backend
+    subcategory: Event Streaming
+  - name: Cybersecurity
+    aliases: [cyber security, information security, infosec]
+    category: Security
+    subcategory: Security Foundation
+  - name: IAM
+    aliases: [identity access management, identity and access management]
+    category: Security
+    subcategory: Identity Security
+  - name: SOC
+    aliases: [security operations center, security operations centre]
+    category: Security
+    subcategory: Security Operations
+  - name: SIEM
+    aliases: []
+    category: Security
+    subcategory: Security Monitoring

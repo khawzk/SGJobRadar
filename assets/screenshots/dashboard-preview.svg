@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" fill="none">
+  <rect width="1440" height="820" fill="#070814"/>
+  <circle cx="260" cy="410" r="260" fill="#3159ff" opacity="0.25"/>
+  <circle cx="790" cy="240" r="240" fill="#8a3ffc" opacity="0.28"/>
+  <rect x="170" y="72" width="1100" height="676" rx="12" fill="#0d1024" stroke="#7f6dff"/>
+  <rect x="170" y="72" width="54" height="676" fill="#171936"/>
+  <circle cx="197" cy="102" r="10" stroke="#e044ff" stroke-width="5"/>
+  <text x="250" y="118" fill="#25d8ff" font-family="Inter, Arial" font-size="12" font-weight="700">JOB MARKET INTELLIGENCE</text>
+  <text x="250" y="150" fill="#f7f8ff" font-family="Inter, Arial" font-size="34" font-weight="800">SG Tech Market Radar</text>
+  <rect x="250" y="180" width="600" height="180" rx="10" fill="#171d3b" stroke="#2f3868"/>
+  <text x="270" y="212" fill="#25d8ff" font-family="Inter, Arial" font-size="12" font-weight="700">MARKET SIGNAL</text>
+  <text x="270" y="252" fill="#f7f8ff" font-family="Inter, Arial" font-size="36" font-weight="800">Software Engineer</text>
+  <rect x="270" y="292" width="130" height="50" rx="8" fill="#10142a"/>
+  <rect x="414" y="292" width="130" height="50" rx="8" fill="#10142a"/>
+  <rect x="558" y="292" width="130" height="50" rx="8" fill="#10142a"/>
+  <rect x="702" y="292" width="130" height="50" rx="8" fill="#10142a"/>
+  <text x="282" y="314" fill="#aab0ce" font-family="Inter, Arial" font-size="10" font-weight="700">JOBS ANALYZED</text>
+  <text x="282" y="334" fill="#f7f8ff" font-family="Inter, Arial" font-size="20" font-weight="800">521</text>
+  <text x="426" y="314" fill="#aab0ce" font-family="Inter, Arial" font-size="10" font-weight="700">DEMAND INDEX</text>
+  <text x="426" y="334" fill="#f7f8ff" font-family="Inter, Arial" font-size="20" font-weight="800">5,238</text>
+  <rect x="870" y="180" width="360" height="180" rx="10" fill="#171d3b" stroke="#2f3868"/>
+  <text x="890" y="212" fill="#25d8ff" font-family="Inter, Arial" font-size="12" font-weight="700">TREND PREVIEW</text>
+  <polyline points="900,290 980,284 1060,278 1140,270" fill="none" stroke="#25d8ff" stroke-width="5" stroke-linecap="round"/>
+  <polyline points="900,322 980,318 1060,312 1140,304" fill="none" stroke="#e044ff" stroke-width="5" stroke-linecap="round"/>
+  <rect x="250" y="380" width="360" height="300" rx="10" fill="#171d3b" stroke="#2f3868"/>
+  <text x="270" y="412" fill="#25d8ff" font-family="Inter, Arial" font-size="12" font-weight="700">RELATIVE DEMAND</text>
+  <text x="270" y="440" fill="#f7f8ff" font-family="Inter, Arial" font-size="18" font-weight="800">Demand Clusters</text>
+  <g stroke-linecap="round" stroke-width="8">
+    <line x1="394" y1="480" x2="560" y2="480" stroke="#25d8ff"/>
+    <line x1="394" y1="520" x2="512" y2="520" stroke="#25d8ff"/>
+    <line x1="394" y1="560" x2="494" y2="560" stroke="#25d8ff"/>
+    <line x1="394" y1="600" x2="470" y2="600" stroke="#25d8ff"/>
+  </g>
+  <rect x="630" y="380" width="360" height="300" rx="10" fill="#171d3b" stroke="#2f3868"/>
+  <text x="650" y="412" fill="#25d8ff" font-family="Inter, Arial" font-size="12" font-weight="700">SKILLSET PORTFOLIO</text>
+  <text x="650" y="440" fill="#f7f8ff" font-family="Inter, Arial" font-size="18" font-weight="800">Grouped Demand</text>
+  <rect x="650" y="462" width="320" height="56" rx="8" fill="#10142a"/>
+  <rect x="650" y="530" width="320" height="56" rx="8" fill="#10142a"/>
+  <rect x="650" y="598" width="320" height="56" rx="8" fill="#10142a"/>
+  <line x1="670" y1="492" x2="930" y2="492" stroke="#25d8ff" stroke-width="8" stroke-linecap="round"/>
+  <line x1="670" y1="560" x2="830" y2="560" stroke="#25d8ff" stroke-width="8" stroke-linecap="round"/>
+  <line x1="670" y1="628" x2="816" y2="628" stroke="#25d8ff" stroke-width="8" stroke-linecap="round"/>
+  <rect x="1010" y="380" width="220" height="300" rx="10" fill="#171d3b" stroke="#2f3868"/>
+  <text x="1030" y="412" fill="#25d8ff" font-family="Inter, Arial" font-size="12" font-weight="700">ANALYST READ</text>
+  <text x="1030" y="448" fill="#f7f8ff" font-family="Inter, Arial" font-size="15" font-weight="700">Cloud &amp; DevOps leads the skillset signal.</text>
+  <text x="1030" y="486" fill="#aab0ce" font-family="Inter, Arial" font-size="13">AI direction: Generative AI, RAG, MLOps.</text>
+</svg>
