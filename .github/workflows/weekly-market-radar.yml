@@ -17,6 +17,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: weekly-market-radar
@@ -69,3 +71,14 @@ jobs:
         with:
           commit_message: "Update weekly market skill radar data"
           file_pattern: data/latest.json data/weekly/*.json data/weekly/*.md
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy dashboard to GitHub Pages
+        uses: actions/deploy-pages@v4

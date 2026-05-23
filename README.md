@@ -184,6 +184,18 @@ data/weekly/slack_digest.md
 
 Raw API responses stay ignored by git. This keeps the public repository cleaner and avoids publishing source-specific tracking details.
 
+## Free Dashboard Hosting
+
+The dashboard is deployed with GitHub Pages through [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml).
+
+Public dashboard URL:
+
+```text
+https://khawzk.github.io/SGJobRadar/dashboard/
+```
+
+The weekly data workflow also deploys Pages after every scheduled refresh, so the public dashboard stays aligned with `data/latest.json`.
+
 ## Start Collecting Data
 
 The first collector is SG-first by default:
@@ -260,7 +272,7 @@ The dashboard includes a trust layer:
 ### Phase 5: Automation
 
 - [x] Run pipeline weekly with GitHub Actions
-- [ ] Publish GitHub Pages
+- [x] Publish GitHub Pages
 - [x] Create Slack digest preview
 
 ## Design Direction
