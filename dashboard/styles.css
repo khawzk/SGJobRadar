@@ -13,6 +13,8 @@
   --pink: #e044ff;
   --green: #31f6a1;
   --amber: #f8c14a;
+  --coral: #ff6b4a;
+  --teal: #1db9a6;
 }
 
 * {
@@ -24,9 +26,9 @@ body {
   margin: 0;
   overflow-x: hidden;
   background:
-    radial-gradient(circle at 50% -10%, rgba(125, 48, 255, 0.9), transparent 34rem),
-    radial-gradient(circle at 5% 15%, rgba(49, 89, 255, 0.72), transparent 24rem),
-    radial-gradient(circle at 86% 92%, rgba(224, 68, 255, 0.34), transparent 26rem),
+    linear-gradient(135deg, rgba(255, 107, 74, 0.11), transparent 34%),
+    linear-gradient(215deg, rgba(49, 246, 161, 0.09), transparent 42%),
+    linear-gradient(180deg, #050711 0%, #0b1020 52%, #061816 100%),
     var(--bg);
   color: var(--text);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -34,15 +36,14 @@ body {
 
 body::before {
   position: fixed;
-  inset: auto auto -28rem 50%;
-  width: 76rem;
-  height: 76rem;
-  border: 7rem solid rgba(69, 32, 255, 0.7);
-  border-radius: 999px;
+  inset: 0;
+  background:
+    linear-gradient(rgba(163, 174, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(163, 174, 255, 0.04) 1px, transparent 1px);
+  background-size: 44px 44px;
   content: "";
-  filter: blur(1px);
+  opacity: 0.75;
   pointer-events: none;
-  transform: translateX(-50%);
 }
 
 button {
@@ -170,6 +171,7 @@ h3 {
   background: rgba(49, 246, 161, 0.1);
   color: var(--green);
   font-weight: 800;
+  white-space: nowrap;
 }
 
 .signal-grid {
@@ -189,6 +191,13 @@ h3 {
   margin-top: 18px;
 }
 
+.opportunity-grid {
+  display: grid;
+  grid-template-columns: minmax(360px, 0.82fr) minmax(0, 1.68fr);
+  gap: 18px;
+  margin-top: 18px;
+}
+
 .glass-panel {
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -196,6 +205,244 @@ h3 {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 18px 40px rgba(0, 0, 0, 0.22);
   padding: 18px;
   backdrop-filter: blur(18px);
+}
+
+.opportunity-lead {
+  border-color: rgba(49, 246, 161, 0.22);
+}
+
+.opportunity-panel {
+  border-color: rgba(255, 107, 74, 0.2);
+}
+
+.opportunity-summary {
+  display: grid;
+  gap: 14px;
+}
+
+.radar-hero {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(37, 216, 255, 0.2);
+  border-radius: 10px;
+  background:
+    linear-gradient(135deg, rgba(37, 216, 255, 0.18), rgba(49, 246, 161, 0.08)),
+    rgba(6, 8, 24, 0.48);
+  padding: 16px;
+}
+
+.radar-hero::after {
+  position: absolute;
+  inset: auto -22px -36px auto;
+  width: 190px;
+  height: 130px;
+  border: 1px solid rgba(248, 193, 74, 0.24);
+  background: repeating-linear-gradient(135deg, rgba(248, 193, 74, 0.13) 0 2px, transparent 2px 12px);
+  content: "";
+  transform: rotate(-14deg);
+}
+
+.radar-hero span,
+.baseline-card span {
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.radar-hero h2 {
+  max-width: 720px;
+  margin-top: 8px;
+  font-size: 26px;
+  line-height: 1.08;
+}
+
+.radar-hero p {
+  max-width: 700px;
+  margin-top: 10px;
+  color: #dce2ff;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.radar-hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.radar-hero-actions a,
+.opportunity-card > a {
+  border: 1px solid rgba(37, 216, 255, 0.32);
+  border-radius: 999px;
+  padding: 7px 10px;
+  color: var(--cyan);
+  font-size: 12px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.radar-hero-actions strong {
+  border-radius: 999px;
+  padding: 7px 10px;
+  background: rgba(49, 246, 161, 0.12);
+  color: var(--green);
+  font-size: 12px;
+}
+
+.radar-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.radar-stats div,
+.baseline-card {
+  border: 1px solid rgba(163, 174, 255, 0.14);
+  border-radius: 10px;
+  background: rgba(6, 8, 24, 0.38);
+  padding: 12px;
+}
+
+.radar-stats strong,
+.radar-stats span,
+.baseline-card strong,
+.baseline-card small {
+  display: block;
+}
+
+.radar-stats strong {
+  color: var(--amber);
+  font-size: 23px;
+}
+
+.radar-stats span,
+.baseline-card small {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.baseline-card strong {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.opportunity-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.opportunity-card {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  border: 1px solid rgba(163, 174, 255, 0.14);
+  border-radius: 10px;
+  background: rgba(6, 8, 24, 0.38);
+  padding: 14px;
+}
+
+.opportunity-card.ready-to-apply {
+  border-color: rgba(49, 246, 161, 0.32);
+}
+
+.opportunity-card.research-first {
+  border-color: rgba(248, 193, 74, 0.32);
+}
+
+.opportunity-card.stretch {
+  border-color: rgba(255, 107, 74, 0.32);
+}
+
+.opportunity-card-top {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 10px;
+}
+
+.opportunity-card-top > span {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  border-radius: 8px;
+  background: rgba(37, 216, 255, 0.11);
+  color: var(--cyan);
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.opportunity-card-top h4 {
+  font-size: 14px;
+  line-height: 1.25;
+}
+
+.opportunity-card-top p,
+.opportunity-card > p {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.opportunity-card-top strong {
+  color: var(--green);
+  font-size: 24px;
+  line-height: 1;
+}
+
+.fit-track {
+  height: 8px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(163, 174, 255, 0.12);
+}
+
+.fit-track div {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--green), var(--amber), var(--coral));
+}
+
+.opportunity-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.opportunity-tags span {
+  border: 1px solid rgba(248, 193, 74, 0.22);
+  border-radius: 999px;
+  padding: 4px 7px;
+  color: #ffe8ad;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.opportunity-card details {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.opportunity-card summary {
+  color: var(--cyan);
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.opportunity-card ul {
+  display: grid;
+  gap: 6px;
+  margin: 8px 0 0;
+  padding-left: 18px;
+  line-height: 1.4;
 }
 
 .headline-panel {
@@ -255,17 +502,18 @@ h3 {
 
 .soft-globe {
   position: absolute;
-  inset: auto -140px -210px auto;
-  width: 520px;
-  aspect-ratio: 1;
-  border-radius: 999px;
+  inset: auto -24px -46px auto;
+  width: min(46%, 380px);
+  aspect-ratio: 1.22;
+  border: 1px solid rgba(37, 216, 255, 0.2);
+  border-radius: 14px;
   background:
-    radial-gradient(circle at 38% 32%, rgba(224, 68, 255, 0.85), transparent 15%),
-    radial-gradient(circle at 56% 58%, rgba(37, 216, 255, 0.62), transparent 30%),
-    radial-gradient(circle, rgba(49, 89, 255, 0.88), rgba(21, 13, 81, 0.78) 58%, transparent 70%);
-  filter: blur(1px);
-  opacity: 0.78;
+    repeating-linear-gradient(90deg, rgba(37, 216, 255, 0.14) 0 1px, transparent 1px 28px),
+    repeating-linear-gradient(0deg, rgba(49, 246, 161, 0.12) 0 1px, transparent 1px 28px),
+    linear-gradient(135deg, rgba(49, 89, 255, 0.28), rgba(255, 107, 74, 0.16));
+  opacity: 0.74;
   pointer-events: none;
+  transform: rotate(-7deg);
 }
 
 .bar-chart {
@@ -703,10 +951,15 @@ h3 {
 
 @media (max-width: 1150px) {
   .signal-grid,
+  .opportunity-grid,
   .analysis-grid,
   .evidence-grid,
   .bottom-grid {
     grid-template-columns: 1fr;
+  }
+
+  .opportunity-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -732,7 +985,9 @@ h3 {
   }
 
   .kpi-grid,
+  .radar-stats,
   .heatmap,
+  .opportunity-list,
   .evidence-list {
     grid-template-columns: 1fr;
   }

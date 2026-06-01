@@ -1,5 +1,8 @@
 async function loadDashboard() {
-  const response = await fetch("../data/latest.json");
+  const [response, radar] = await Promise.all([
+    fetch("../data/latest.json"),
+    loadOptionalJson("../data/opportunity-radar.json"),
+  ]);
   if (!response.ok) return;
 
   const data = await response.json();
@@ -16,7 +19,18 @@ async function loadDashboard() {
   renderMethodology(data.methodology || {});
   renderMiniList("#role-chart", data.top_roles || []);
   renderProjects(data.project_recommendations || []);
+  renderOpportunityRadar(radar);
   document.querySelector("#source-note").textContent = data.source_note || "";
+}
+
+async function loadOptionalJson(path) {
+  try {
+    const response = await fetch(path);
+    if (!response.ok) return null;
+    return await response.json();
+  } catch {
+    return null;
+  }
 }
 
 function renderHeader(data) {
@@ -53,6 +67,82 @@ function renderKpis(data) {
       <strong>${value}</strong>
       <small>${note}</small>
     </div>
+  `).join("");
+}
+
+function renderOpportunityRadar(radar) {
+  const summaryElement = document.querySelector("#opportunity-summary");
+  const listElement = document.querySelector("#opportunity-list");
+  const generatedElement = document.querySelector("#radar-generated");
+  if (!summaryElement || !listElement || !generatedElement) return;
+
+  if (!radar) {
+    generatedElement.textContent = "No radar";
+    summaryElement.textContent = "Opportunity radar data is not available yet.";
+    listElement.textContent = "Run the weekly job search to populate this panel.";
+    return;
+  }
+
+  const summary = radar.summary || {};
+  const baseline = radar.baseline_application || {};
+  const opportunities = radar.opportunities || [];
+  const top = opportunities[0] || {};
+  generatedElement.textContent = `Radar ${shortDate(radar.generated_at)}`;
+
+  summaryElement.innerHTML = `
+    <div class="radar-hero">
+      <span>Top pick</span>
+      <h2>${escapeHtml(top.company || "Pending")} · ${escapeHtml(top.title || "No role yet")}</h2>
+      <p>${escapeHtml(top.resume_angle || "Waiting for curated opportunity notes.")}</p>
+      <div class="radar-hero-actions">
+        ${top.url ? `<a href="${escapeAttribute(top.url)}" target="_blank" rel="noreferrer">Open role</a>` : ""}
+        <strong>${formatNumber(top.fit_score)}% fit</strong>
+      </div>
+    </div>
+    <div class="radar-stats">
+      <div><strong>${formatNumber(summary.total_opportunities)}</strong><span>similar roles</span></div>
+      <div><strong>${formatNumber(summary.ready_to_apply)}</strong><span>apply next</span></div>
+      <div><strong>${formatNumber(summary.research_first)}</strong><span>research</span></div>
+      <div><strong>${formatNumber(summary.stretch)}</strong><span>stretch</span></div>
+    </div>
+    <div class="baseline-card">
+      <span>Submitted baseline</span>
+      <strong>${escapeHtml(baseline.company || "Singdata")} · ${escapeHtml(baseline.title || "Data & AI Solution Architect")}</strong>
+      <small>${escapeHtml(baseline.status || "Applied")} ${baseline.applied_at ? `on ${escapeHtml(baseline.applied_at)}` : ""}</small>
+    </div>
+  `;
+
+  listElement.innerHTML = opportunities.map((item) => `
+    <article class="opportunity-card ${statusSlug(item.status)}">
+      <div class="opportunity-card-top">
+        <span>${String(item.rank || "").padStart(2, "0")}</span>
+        <div>
+          <h4>${escapeHtml(item.title)}</h4>
+          <p>${escapeHtml(item.company)} · ${escapeHtml(item.location)}</p>
+        </div>
+        <strong>${formatNumber(item.fit_score)}</strong>
+      </div>
+      <div class="fit-track" aria-label="Fit score ${formatNumber(item.fit_score)} percent">
+        <div style="width:${Math.min(Math.max(Number(item.fit_score) || 0, 0), 100)}%"></div>
+      </div>
+      <div class="opportunity-tags">
+        <span>${escapeHtml(item.status)}</span>
+        <span>${escapeHtml(item.role_lane)}</span>
+        <span>${escapeHtml(item.workplace)}</span>
+      </div>
+      <p>${escapeHtml(item.next_action)}</p>
+      <div class="skill-chips">
+        ${(item.keywords || []).slice(0, 6).map((skill) => `<span>${escapeHtml(skill)}</span>`).join("")}
+      </div>
+      <details>
+        <summary>Match notes</summary>
+        <ul>
+          ${(item.why_match || []).slice(0, 2).map((note) => `<li>${escapeHtml(note)}</li>`).join("")}
+          ${(item.watchouts || []).slice(0, 1).map((note) => `<li>${escapeHtml(note)}</li>`).join("")}
+        </ul>
+      </details>
+      ${item.url ? `<a href="${escapeAttribute(item.url)}" target="_blank" rel="noreferrer">Open source</a>` : ""}
+    </article>
   `).join("");
 }
 
@@ -313,6 +403,36 @@ function titleCase(value) {
     .split(" ")
     .map((part) => part ? part[0].toUpperCase() + part.slice(1) : part)
     .join(" ");
+}
+
+function dateOnly(value) {
+  if (!value) return "pending";
+  return String(value).split("T")[0];
+}
+
+function shortDate(value) {
+  const date = dateOnly(value);
+  if (!date.includes("-")) return date;
+  const [, month, day] = date.split("-");
+  const label = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][Number(month) - 1] || month;
+  return `${label} ${day}`;
+}
+
+function statusSlug(value) {
+  return String(value || "unknown").toLowerCase().replace(/[^a-z0-9]+/g, "-");
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function escapeAttribute(value) {
+  return escapeHtml(value).replaceAll("`", "&#96;");
 }
 
 loadDashboard().catch(() => {

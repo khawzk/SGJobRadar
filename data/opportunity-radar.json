@@ -1,0 +1,301 @@
+{
+  "generated_at": "2026-06-02T02:05:00+08:00",
+  "profile_anchor": {
+    "name": "Mark Khaw",
+    "target_market": "Singapore",
+    "target_roles": [
+      "Data & AI Solution Architect",
+      "AI Solution Architect",
+      "Forward Deployed AI / Deployment Strategist",
+      "Cloud / Data / AI Pre-sales Solution Architect"
+    ],
+    "positioning": "Cloud solution architect with Alibaba Cloud and Huawei Cloud pre-sales experience, Intel finance data analytics exposure across Snowflake, Databricks, Azure Data Factory, SAP/SAP HANA, and bilingual English/Mandarin customer-facing coverage across SEA.",
+    "strongest_signals": [
+      "Cloud and AI pre-sales",
+      "Customer discovery and demos",
+      "PoC and migration planning",
+      "Bilingual English/Mandarin",
+      "Data platform exposure: Snowflake, Databricks, Azure, SAP/SAP HANA"
+    ]
+  },
+  "summary": {
+    "total_opportunities": 7,
+    "applied_today": 1,
+    "ready_to_apply": 3,
+    "research_first": 2,
+    "stretch": 2,
+    "top_pick": "Mistral AI - AI Deployment Strategist - Singapore"
+  },
+  "baseline_application": {
+    "title": "Data & AI Solution Architect",
+    "company": "Singdata",
+    "location": "Singapore",
+    "status": "Applied",
+    "applied_at": "2026-06-02",
+    "url": "https://www.linkedin.com/jobs/view/4419021538/",
+    "fit_score": 90,
+    "why_it_matched": [
+      "Data + AI lakehouse solution architecture",
+      "AI Agent use case discovery",
+      "Mandarin and English requirement",
+      "Databricks/Snowflake/Azure overlap from Intel"
+    ]
+  },
+  "opportunities": [
+    {
+      "rank": 1,
+      "title": "AI Deployment Strategist - Singapore",
+      "company": "Mistral AI",
+      "location": "Singapore",
+      "workplace": "Hybrid",
+      "source": "Mistral Lever",
+      "url": "https://jobs.lever.co/mistral/55c2e8f4-a3ea-4e59-9ccf-dac2fee26c65",
+      "status": "Ready to apply",
+      "priority": "High",
+      "role_lane": "AI/FDE",
+      "fit_score": 91,
+      "freshness": "Active official listing checked 2026-06-02",
+      "why_match": [
+        "Pre-sales discovery, qualification, customer implementation, and post-deployment support map well to Alibaba/Huawei solution architect work.",
+        "FDE-like role: translates customer problems into AI deployments instead of pure backend coding.",
+        "Strong positioning angle through Qwen/Alibaba Cloud AI exposure and bilingual SEA customer work."
+      ],
+      "watchouts": [
+        "Technical deep dive on LLMs is likely; prepare RAG, evaluation, fine-tuning, and enterprise deployment examples.",
+        "May require stronger hands-on coding narrative than the current resume headline shows."
+      ],
+      "keywords": [
+        "Pre-sales",
+        "LLM",
+        "AI deployment",
+        "Customer success",
+        "API integration",
+        "FDE"
+      ],
+      "resume_angle": "Lead with AI solution deployment, customer discovery, demos, PoC scoping, and Qwen/Alibaba Cloud AI ecosystem exposure.",
+      "next_action": "Apply with a short FDE-style cover note focused on customer discovery, AI deployment, and bilingual SEA coverage."
+    },
+    {
+      "rank": 2,
+      "title": "AI Product Solution Architect, BytePlus - Singapore",
+      "company": "ByteDance / BytePlus",
+      "location": "Singapore",
+      "workplace": "On-site or hybrid not confirmed",
+      "source": "Indeed / ByteDance listing mirror",
+      "url": "https://sg.indeed.com/viewjob?jk=ecc7d418c0a0a3d5",
+      "status": "Ready to apply",
+      "priority": "High",
+      "role_lane": "AI Product Solution / GTM",
+      "fit_score": 88,
+      "freshness": "Active listing mirror checked 2026-06-02",
+      "why_match": [
+        "AI product commercialization and overseas GTM match Alibaba Cloud regional solution work.",
+        "Chinese technology vendor environment is close to Alibaba/Huawei/Tencent context.",
+        "Minimum 3+ years and engineering bachelor requirement look more realistic than many senior architect roles."
+      ],
+      "watchouts": [
+        "Role leans product/GTM more than data platform architecture.",
+        "Need to frame GenAI product experience through Alibaba Cloud/Qwen events and demos."
+      ],
+      "keywords": [
+        "BytePlus",
+        "AI products",
+        "Pre-sales",
+        "GTM",
+        "Voice AI",
+        "Image generation"
+      ],
+      "resume_angle": "Emphasize Alibaba Cloud AI solution demos, Qwen ecosystem exposure, regional SMB/SEA customer discovery, and bilingual customer communication.",
+      "next_action": "Apply after checking ByteDance official job portal for the same job code A225161."
+    },
+    {
+      "rank": 3,
+      "title": "AI Solution Architect",
+      "company": "PwC Singapore",
+      "location": "Singapore",
+      "workplace": "Not confirmed",
+      "source": "LinkedIn",
+      "url": "https://sg.linkedin.com/jobs/view/ai-solution-architect-at-pwc-singapore-4415629024",
+      "status": "Ready to apply",
+      "priority": "High",
+      "role_lane": "Consulting / AI Architecture",
+      "fit_score": 84,
+      "freshness": "LinkedIn listing checked 2026-06-02",
+      "why_match": [
+        "Client pre-sales and discovery are directly aligned with current solution architect work.",
+        "RAG, agentic workflows, data platforms, proposals, scoping, and architecture diagrams match the Singdata lane.",
+        "Consulting environment values stakeholder communication and architecture storytelling."
+      ],
+      "watchouts": [
+        "They ask for Python proficiency and minimum 2 years production AI delivery.",
+        "Strong Claude/Anthropic ecosystem preference; Mark's strongest brand signal is currently Qwen/Alibaba."
+      ],
+      "keywords": [
+        "RAG",
+        "Agentic workflows",
+        "Data platforms",
+        "Python",
+        "Cloud AI",
+        "AI governance"
+      ],
+      "resume_angle": "Convert Qwen/Alibaba AI work into vendor-neutral GenAI architecture language: RAG, agent workflow, PoC, AI governance, customer workshops.",
+      "next_action": "Apply with a tailored cover letter that bridges Qwen experience into Anthropic/Claude-adjacent enterprise AI patterns."
+    },
+    {
+      "rank": 4,
+      "title": "Data and AI Solution Architect",
+      "company": "Microsoft",
+      "location": "Singapore",
+      "workplace": "Flexible up to 50% remote according to listing",
+      "source": "LinkedIn",
+      "url": "https://sg.linkedin.com/jobs/view/data-and-ai-solution-architect-at-microsoft-4372244860",
+      "status": "Research first",
+      "priority": "Medium",
+      "role_lane": "Enterprise Data & AI Architecture",
+      "fit_score": 80,
+      "freshness": "LinkedIn listing checked 2026-06-02",
+      "why_match": [
+        "Enterprise customer architecture and project governance match solution architect trajectory.",
+        "Intel Azure Databricks and Azure Data Factory exposure can support the Microsoft Data & AI story.",
+        "Large strategic customer delivery aligns with Alibaba/Huawei pre-sales plus migration planning."
+      ],
+      "watchouts": [
+        "High competition and likely deeper Microsoft Cloud stack expectations.",
+        "Need stronger Azure-first framing before applying."
+      ],
+      "keywords": [
+        "Microsoft Cloud",
+        "Azure",
+        "Data & AI",
+        "Solution architecture",
+        "Customer governance"
+      ],
+      "resume_angle": "Bring Intel Azure Data Factory/Databricks + Alibaba/Huawei cloud architecture into an Azure Data & AI transformation narrative.",
+      "next_action": "Check if the application is on Microsoft Careers, then tailor resume keywords around Azure OpenAI, Fabric, Databricks, and customer architecture governance."
+    },
+    {
+      "rank": 5,
+      "title": "AI Solution Architect",
+      "company": "ST Engineering",
+      "location": "ST Engineering Hub, Singapore",
+      "workplace": "Not confirmed",
+      "source": "ST Engineering Careers",
+      "url": "https://careers.stengg.com/job/ST-Engineering-Hub-AI-Solution-Architect/1328768466/",
+      "status": "Research first",
+      "priority": "Medium",
+      "role_lane": "Enterprise Agentic AI",
+      "fit_score": 76,
+      "freshness": "Official listing checked 2026-06-02",
+      "why_match": [
+        "Agentic AI, RAG, MLOps, cloud AI platforms, and solution selling are aligned with target direction.",
+        "Enterprise stakeholder engagement and PoC rollout match solution architect work."
+      ],
+      "watchouts": [
+        "Likely expects deeper enterprise-scale agentic AI implementation than current profile shows.",
+        "Needs concrete LangChain/CrewAI/AutoGen or MLOps examples before applying."
+      ],
+      "keywords": [
+        "Agentic AI",
+        "RAG",
+        "MLOps",
+        "LangChain",
+        "CrewAI",
+        "Cloud AI"
+      ],
+      "resume_angle": "Position as cloud+AI solution architect with PoC ownership, but prepare a portfolio demo showing agentic workflow design and governance.",
+      "next_action": "Shortlist; apply if comfortable discussing one end-to-end agentic AI reference architecture in depth."
+    },
+    {
+      "rank": 6,
+      "title": "Agentic AI Solution Architect, AI & Data, Technology Consulting",
+      "company": "EY",
+      "location": "Singapore",
+      "workplace": "Flexible full-time according to listing",
+      "source": "LinkedIn",
+      "url": "https://sg.linkedin.com/jobs/view/agentic-ai-solution-architect-ai-data-technology-consulting-at-ey-4385040576",
+      "status": "Stretch",
+      "priority": "Medium",
+      "role_lane": "Consulting / Agentic AI Delivery",
+      "fit_score": 72,
+      "freshness": "LinkedIn listing checked 2026-06-02",
+      "why_match": [
+        "AI & Data consulting, stakeholder presentation, and solution design align with target direction.",
+        "Professional services route can value pre-sales, documentation, and client communication."
+      ],
+      "watchouts": [
+        "Requires at least 5 years in Traditional AI/ML and GenAI with LLM/LangChain.",
+        "More hands-on delivery depth than current LinkedIn profile signals."
+      ],
+      "keywords": [
+        "Agentic AI",
+        "GenAI",
+        "LLM",
+        "LangChain",
+        "Python",
+        "Consulting"
+      ],
+      "resume_angle": "Apply only with a delivery-heavy version of the resume and a GenAI project appendix.",
+      "next_action": "Keep in radar; improve by adding one visible LangChain/RAG portfolio project."
+    },
+    {
+      "rank": 7,
+      "title": "Sales Solution Architect AI/ML",
+      "company": "Snowflake",
+      "location": "Singapore",
+      "workplace": "Hybrid",
+      "source": "Snowflake / JobStreet / Glassdoor",
+      "url": "https://sg.jobstreet.com/Snowflake-jobs/in-Singapore",
+      "status": "Stretch",
+      "priority": "Medium",
+      "role_lane": "Data Cloud AI/ML Pre-sales",
+      "fit_score": 68,
+      "freshness": "Listing mirrors checked 2026-06-02",
+      "why_match": [
+        "Direct overlap with Snowflake, AI/ML workloads, SQL/Python POCs, customer discovery, and pre-sales.",
+        "Strong strategic fit with Intel finance analytics + cloud solution architect background."
+      ],
+      "watchouts": [
+        "Typical requirement is around 10+ years in customer-facing pre/post-sales technical role.",
+        "Snowflake-native implementation depth may be expected."
+      ],
+      "keywords": [
+        "Snowflake",
+        "AI/ML",
+        "SQL",
+        "Python",
+        "MLOps",
+        "Pre-sales"
+      ],
+      "resume_angle": "Use as a stretch target after strengthening Snowflake + GenAI POC evidence.",
+      "next_action": "Save and monitor; apply only if the application form does not hard-filter on 10+ years."
+    }
+  ],
+  "pipeline": [
+    {
+      "stage": "Apply next",
+      "count": 3,
+      "items": [
+        "Mistral AI - AI Deployment Strategist",
+        "BytePlus - AI Product Solution Architect",
+        "PwC Singapore - AI Solution Architect"
+      ]
+    },
+    {
+      "stage": "Research first",
+      "count": 2,
+      "items": [
+        "Microsoft - Data and AI Solution Architect",
+        "ST Engineering - AI Solution Architect"
+      ]
+    },
+    {
+      "stage": "Stretch",
+      "count": 2,
+      "items": [
+        "EY - Agentic AI Solution Architect",
+        "Snowflake - Sales Solution Architect AI/ML"
+      ]
+    }
+  ],
+  "source_note": "Manually curated from official company pages and public job listings on 2026-06-02. Verify each form before submitting applications."
+}
