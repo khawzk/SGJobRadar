@@ -9,6 +9,7 @@ on:
       - "assets/**"
       - "dashboard/**"
       - "data/latest.json"
+      - "data/opportunity-radar.json"
       - "data/weekly/**"
       - ".github/workflows/deploy-pages.yml"
 
