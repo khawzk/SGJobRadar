@@ -21,9 +21,9 @@
   "summary": {
     "total_opportunities": 12,
     "applied_today": 1,
-    "ready_to_apply": 5,
+    "ready_to_apply": 4,
     "research_first": 5,
-    "stretch": 2,
+    "stretch": 3,
     "top_pick": "BytePlus - Solution Architect (GenAI), Singapore"
   },
   "baseline_application": {
@@ -215,10 +215,10 @@
       "workplace": "Not confirmed",
       "source": "LinkedIn",
       "url": "https://sg.linkedin.com/jobs/view/ai-solution-architect-at-pwc-singapore-4415629024",
-      "status": "Ready to apply",
-      "priority": "High",
-      "role_lane": "Consulting / AI Architecture",
-      "fit_score": 84,
+      "status": "Stretch",
+      "priority": "Low",
+      "role_lane": "Manager-level consulting / stretch",
+      "fit_score": 66,
       "freshness": "LinkedIn listing checked 2026-06-02",
       "why_match": [
         "Client pre-sales and discovery are directly aligned with current solution architect work.",
@@ -226,8 +226,9 @@
         "Consulting environment values stakeholder communication and architecture storytelling."
       ],
       "watchouts": [
-        "They ask for Python proficiency and minimum 2 years production AI delivery.",
-        "Strong Claude/Anthropic ecosystem preference; Mark's strongest brand signal is currently Qwen/Alibaba."
+        "Manager-level role with 5-14 years enterprise technology experience and minimum 2 years production AI delivery; too senior for auto-apply right now.",
+        "Requires stronger hands-on Python, Claude/Anthropic, LangChain/LlamaIndex, vector DB, Docker/Kubernetes, and CI/CD depth than the current profile should claim.",
+        "Keep as market signal only unless Mark explicitly approves a stretch application."
       ],
       "keywords": [
         "RAG",
@@ -238,7 +239,7 @@
         "AI governance"
       ],
       "resume_angle": "Convert Qwen/Alibaba AI work into vendor-neutral GenAI architecture language: RAG, agent workflow, PoC, AI governance, customer workshops.",
-      "next_action": "Apply with a tailored cover letter that bridges Qwen experience into Anthropic/Claude-adjacent enterprise AI patterns."
+      "next_action": "Do not auto-apply. Keep as stretch market signal and revisit after stronger hands-on AI delivery evidence."
     },
     {
       "rank": 7,
@@ -438,13 +439,12 @@
   "pipeline": [
     {
       "stage": "Apply next",
-      "count": 5,
+      "count": 4,
       "items": [
         "BytePlus - Solution Architect (GenAI)",
         "Mistral AI - AI Deployment Strategist",
         "BytePlus - AI Product Solution Architect",
-        "BytePlus - Product Solution Architect - ModelArk",
-        "PwC Singapore - AI Solution Architect"
+        "BytePlus - Product Solution Architect - ModelArk"
       ]
     },
     {
@@ -460,8 +460,9 @@
     },
     {
       "stage": "Stretch",
-      "count": 2,
+      "count": 3,
       "items": [
+        "PwC Singapore - AI Solution Architect (Manager-level stretch)",
         "EY - Agentic AI Solution Architect",
         "Snowflake - Sales Solution Architect AI/ML"
       ]
