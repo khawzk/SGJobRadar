@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T02:05:00+08:00",
+  "generated_at": "2026-06-02T08:10:00+08:00",
   "profile_anchor": {
     "name": "Mark Khaw",
     "target_market": "Singapore",
@@ -19,12 +19,12 @@
     ]
   },
   "summary": {
-    "total_opportunities": 7,
+    "total_opportunities": 12,
     "applied_today": 1,
-    "ready_to_apply": 3,
-    "research_first": 2,
+    "ready_to_apply": 5,
+    "research_first": 5,
     "stretch": 2,
-    "top_pick": "Mistral AI - AI Deployment Strategist - Singapore"
+    "top_pick": "BytePlus - Solution Architect (GenAI), Singapore"
   },
   "baseline_application": {
     "title": "Data & AI Solution Architect",
@@ -44,6 +44,39 @@
   "opportunities": [
     {
       "rank": 1,
+      "title": "Solution Architect (GenAI), BytePlus",
+      "company": "ByteDance / BytePlus",
+      "location": "Singapore",
+      "workplace": "On-site or hybrid not confirmed",
+      "source": "Join ByteDance",
+      "url": "https://joinbytedance.com/search/7446295559396821255",
+      "status": "Ready to apply",
+      "priority": "High",
+      "role_lane": "GenAI / Data Analytics Pre-sales",
+      "fit_score": 93,
+      "freshness": "Active official listing checked 2026-06-02",
+      "why_match": [
+        "Best BytePlus fit found: GenAI and data analytics solution strategy, Singapore market success cases, demos, architecture workshops, RFP/RFI ownership, and POC-to-contract motion.",
+        "Minimum 3+ years in AI/data analytics or IT consultant solution/pre-sales is close to Alibaba Cloud plus Huawei Cloud plus Intel finance analytics positioning.",
+        "The role values C-suite and technical stakeholder communication, which matches your current regional solution architect work."
+      ],
+      "watchouts": [
+        "Need to prepare one clear GenAI/data analytics POC story from Alibaba/Qwen plus Intel data platform exposure.",
+        "Basic developer skills are a plus; do not over-position as a hands-on engineer."
+      ],
+      "keywords": [
+        "BytePlus",
+        "GenAI",
+        "Data analytics",
+        "Pre-sales",
+        "RFP/RFI",
+        "POC"
+      ],
+      "resume_angle": "Lead with Alibaba Cloud AI solutioning, Qwen ecosystem exposure, customer discovery, demos, POC scoping, and Intel data analytics platforms.",
+      "next_action": "Apply after tailoring a BytePlus-specific cover note around GenAI/data analytics solution strategy and Singapore/SEA customer coverage."
+    },
+    {
+      "rank": 2,
       "title": "AI Deployment Strategist - Singapore",
       "company": "Mistral AI",
       "location": "Singapore",
@@ -76,20 +109,20 @@
       "next_action": "Apply with a short FDE-style cover note focused on customer discovery, AI deployment, and bilingual SEA coverage."
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "AI Product Solution Architect, BytePlus - Singapore",
       "company": "ByteDance / BytePlus",
       "location": "Singapore",
       "workplace": "On-site or hybrid not confirmed",
-      "source": "Indeed / ByteDance listing mirror",
-      "url": "https://sg.indeed.com/viewjob?jk=ecc7d418c0a0a3d5",
+      "source": "Join ByteDance",
+      "url": "https://joinbytedance.com/search/7573536281534302469",
       "status": "Ready to apply",
       "priority": "High",
       "role_lane": "AI Product Solution / GTM",
-      "fit_score": 88,
-      "freshness": "Active listing mirror checked 2026-06-02",
+      "fit_score": 90,
+      "freshness": "Active official listing checked 2026-06-02",
       "why_match": [
-        "AI product commercialization and overseas GTM match Alibaba Cloud regional solution work.",
+        "AI product commercialization and overseas GTM for ByteDance image and voice models match Alibaba Cloud regional solution work.",
         "Chinese technology vendor environment is close to Alibaba/Huawei/Tencent context.",
         "Minimum 3+ years and engineering bachelor requirement look more realistic than many senior architect roles."
       ],
@@ -106,10 +139,76 @@
         "Image generation"
       ],
       "resume_angle": "Emphasize Alibaba Cloud AI solution demos, Qwen ecosystem exposure, regional SMB/SEA customer discovery, and bilingual customer communication.",
-      "next_action": "Apply after checking ByteDance official job portal for the same job code A225161."
+      "next_action": "Apply through the official Join ByteDance listing for job code A225161."
     },
     {
-      "rank": 3,
+      "rank": 4,
+      "title": "Forward Deployed Engineer, BytePlus - Singapore",
+      "company": "ByteDance / BytePlus",
+      "location": "Singapore",
+      "workplace": "On-site or hybrid not confirmed",
+      "source": "Join ByteDance",
+      "url": "https://joinbytedance.com/search/7592868401652615477",
+      "status": "Research first",
+      "priority": "High",
+      "role_lane": "FDE / AI Transformation",
+      "fit_score": 86,
+      "freshness": "Active official listing checked 2026-06-02",
+      "why_match": [
+        "Customer AI transformation roadmap, feasibility, demos, documentation, and solution portfolio work are very close to your solution architect strengths.",
+        "This is the most FDE-like BytePlus role found, with a bridge between customer business context and deployable AI solutions.",
+        "Your Alibaba Cloud/Qwen and regional customer-facing work create a credible story."
+      ],
+      "watchouts": [
+        "The listing asks for application development, AI coding tools, CI/CD, landing zones, and hands-on AI agent experience.",
+        "Given your coding level is currently 1, apply only if you can frame a real demo/prototype story confidently."
+      ],
+      "keywords": [
+        "FDE",
+        "AI transformation",
+        "AI roadmap",
+        "Demo",
+        "Agent",
+        "Cloud architecture"
+      ],
+      "resume_angle": "Frame yourself as a customer-facing AI solution architect who can scope demos and roadmaps, while being honest about hands-on depth.",
+      "next_action": "Research interview expectations first; prepare one lightweight AI agent demo before applying."
+    },
+    {
+      "rank": 5,
+      "title": "Product Solution Architect - ModelArk (Singapore)",
+      "company": "ByteDance / BytePlus",
+      "location": "Singapore",
+      "workplace": "On-site or hybrid not confirmed",
+      "source": "Join ByteDance",
+      "url": "https://joinbytedance.com/search/7587989079852943621",
+      "status": "Ready to apply",
+      "priority": "High",
+      "role_lane": "MaaS / GenAI Product Solution",
+      "fit_score": 85,
+      "freshness": "Active official listing checked 2026-06-02",
+      "why_match": [
+        "Model-as-a-service commercialization, solution presentations, requirement analysis, project delivery, and product/R&D coordination match your Alibaba Cloud AI sales engineering direction.",
+        "Minimum one year of VideoGen/LLM/VLM B2B solutions or project management is more accessible than the heavier engineering roles.",
+        "Qwen/Alibaba Cloud AI exposure gives a strong parallel story for MaaS and enterprise model adoption."
+      ],
+      "watchouts": [
+        "Needs demo/API validation capability; prepare to discuss simple model API usage and performance validation.",
+        "VideoGen/VLM depth may be questioned, so keep the angle on enterprise AI platform and solution commercialization."
+      ],
+      "keywords": [
+        "ModelArk",
+        "MaaS",
+        "LLM",
+        "VLM",
+        "B2B solutions",
+        "API demo"
+      ],
+      "resume_angle": "Position around MaaS adoption, Qwen/Alibaba AI solution demos, customer requirement analysis, and product feedback loops.",
+      "next_action": "Apply with a cover note focused on enterprise GenAI platform commercialization."
+    },
+    {
+      "rank": 6,
       "title": "AI Solution Architect",
       "company": "PwC Singapore",
       "location": "Singapore",
@@ -142,7 +241,40 @@
       "next_action": "Apply with a tailored cover letter that bridges Qwen experience into Anthropic/Claude-adjacent enterprise AI patterns."
     },
     {
-      "rank": 4,
+      "rank": 7,
+      "title": "HiAgent Product Solution Architect, BytePlus - Singapore",
+      "company": "ByteDance / BytePlus",
+      "location": "Singapore",
+      "workplace": "On-site or hybrid not confirmed",
+      "source": "Join ByteDance",
+      "url": "https://joinbytedance.com/search/7589574895815756037",
+      "status": "Research first",
+      "priority": "Medium",
+      "role_lane": "Agent Product Solution",
+      "fit_score": 82,
+      "freshness": "Active official listing checked 2026-06-02",
+      "why_match": [
+        "Pre-sales materials, customer solution communication, product demo, POC support, bidding, and SOW work map cleanly to Alibaba/Huawei solution architect responsibilities.",
+        "The role is enterprise-agent focused, which aligns with your AI/FDE direction.",
+        "Internal coordination with product, R&D, finance, tax, legal, and project managers suits your bridge-builder profile."
+      ],
+      "watchouts": [
+        "Requires overseas LLM or Agent-related implementation experience and stronger hands-on troubleshooting than the current profile shows.",
+        "Prepare specific RAG/Agent architecture talking points before applying."
+      ],
+      "keywords": [
+        "HiAgent",
+        "LLM",
+        "Agent",
+        "RAG",
+        "POC",
+        "SOW"
+      ],
+      "resume_angle": "Use your Qwen/Alibaba Cloud AI ecosystem exposure and pre-sales POC language, then add an agent/RAG project example.",
+      "next_action": "Research first; apply if you can support it with one concrete agent solution example."
+    },
+    {
+      "rank": 8,
       "title": "Data and AI Solution Architect",
       "company": "Microsoft",
       "location": "Singapore",
@@ -174,7 +306,40 @@
       "next_action": "Check if the application is on Microsoft Careers, then tailor resume keywords around Azure OpenAI, Fabric, Databricks, and customer architecture governance."
     },
     {
-      "rank": 5,
+      "rank": 9,
+      "title": "Technical Cloud Specialist - BytePlus - Singapore",
+      "company": "ByteDance / BytePlus",
+      "location": "Singapore",
+      "workplace": "On-site or hybrid not confirmed",
+      "source": "Join ByteDance",
+      "url": "https://joinbytedance.com/search/7600699235072362805",
+      "status": "Research first",
+      "priority": "Medium",
+      "role_lane": "Cloud / AI Customer Success",
+      "fit_score": 78,
+      "freshness": "Active official listing checked 2026-06-02",
+      "why_match": [
+        "Post-sales technical ownership, cloud migration, deployment expansion, POCs, demos, best practices, and technical documentation match your cloud SA trajectory.",
+        "BytePlus cloud and AI products align naturally with Alibaba Cloud/Huawei Cloud experience.",
+        "Good fallback if pre-sales architect roles are too engineering-heavy."
+      ],
+      "watchouts": [
+        "The listing asks for 5+ years in TAM/cloud SA/customer success/technical PM and 5+ years with cloud or AI products.",
+        "It may be less strategic pre-sales and more delivery/customer success."
+      ],
+      "keywords": [
+        "BytePlus",
+        "Cloud migration",
+        "Technical account",
+        "POC",
+        "Cloud AI",
+        "Customer success"
+      ],
+      "resume_angle": "Emphasize customer-facing cloud architecture, migration planning, POCs, documentation, and APAC vendor cloud context.",
+      "next_action": "Research first; apply if the form does not hard-filter on 5+ years."
+    },
+    {
+      "rank": 10,
       "title": "AI Solution Architect",
       "company": "ST Engineering",
       "location": "ST Engineering Hub, Singapore",
@@ -206,7 +371,7 @@
       "next_action": "Shortlist; apply if comfortable discussing one end-to-end agentic AI reference architecture in depth."
     },
     {
-      "rank": 6,
+      "rank": 11,
       "title": "Agentic AI Solution Architect, AI & Data, Technology Consulting",
       "company": "EY",
       "location": "Singapore",
@@ -238,7 +403,7 @@
       "next_action": "Keep in radar; improve by adding one visible LangChain/RAG portfolio project."
     },
     {
-      "rank": 7,
+      "rank": 12,
       "title": "Sales Solution Architect AI/ML",
       "company": "Snowflake",
       "location": "Singapore",
@@ -273,18 +438,23 @@
   "pipeline": [
     {
       "stage": "Apply next",
-      "count": 3,
+      "count": 5,
       "items": [
+        "BytePlus - Solution Architect (GenAI)",
         "Mistral AI - AI Deployment Strategist",
         "BytePlus - AI Product Solution Architect",
+        "BytePlus - Product Solution Architect - ModelArk",
         "PwC Singapore - AI Solution Architect"
       ]
     },
     {
       "stage": "Research first",
-      "count": 2,
+      "count": 5,
       "items": [
+        "BytePlus - Forward Deployed Engineer",
+        "BytePlus - HiAgent Product Solution Architect",
         "Microsoft - Data and AI Solution Architect",
+        "BytePlus - Technical Cloud Specialist",
         "ST Engineering - AI Solution Architect"
       ]
     },
@@ -297,5 +467,5 @@
       ]
     }
   ],
-  "source_note": "Manually curated from official company pages and public job listings on 2026-06-02. Verify each form before submitting applications."
+  "source_note": "Manually curated from official company pages, Join ByteDance official listings, and public job listings on 2026-06-02. Verify each form before submitting applications."
 }
