@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T09:04:19+08:00",
+  "generated_at": "2026-06-02T10:23:11+08:00",
   "profile_anchor": {
     "name": "Mark Khaw",
     "target_market": "Singapore",
@@ -25,13 +25,13 @@
     ]
   },
   "summary": {
-    "total_opportunities": 15,
-    "applied_today": 1,
-    "ready_to_apply": 5,
-    "research_first": 7,
+    "total_opportunities": 18,
+    "applied_today": 4,
+    "ready_to_apply": 2,
+    "research_first": 9,
     "stretch": 3,
-    "top_pick": "Red Hat - Junior Solution Architect, OpenShift",
-    "focus": "Early-career / associate / around 3 years Singapore IC roles"
+    "top_pick": "SGInnovate / Innowave Tech - Technical Sales Engineer Executive",
+    "focus": "Early-career / associate / around 3 years Singapore IC roles; manager-level and coding-heavy roles filtered out"
   },
   "baseline_application": {
     "title": "Data & AI Solution Architect",
@@ -51,13 +51,109 @@
   "opportunities": [
     {
       "rank": 1,
+      "title": "Technical Sales Engineer Executive",
+      "company": "SGInnovate / Innowave Tech",
+      "location": "Singapore",
+      "workplace": "On-site",
+      "source": "LinkedIn Easy Apply",
+      "url": "https://www.linkedin.com/jobs/view/4394754966/",
+      "status": "Applied",
+      "priority": "High",
+      "role_lane": "Junior Technical Sales / Pre-sales Solutioning",
+      "fit_score": 91,
+      "freshness": "Applied on 2026-06-02 via LinkedIn Easy Apply.",
+      "why_match": [
+        "Junior executive role with 0-2 years / fresh graduate eligibility and on-the-job training.",
+        "AI manufacturing solutioning, customer demos, pre-sales design, and presentation work align with Alibaba/Huawei SA experience.",
+        "Manufacturing AI context connects well with Shimano manufacturing analytics and Intel data/workflow validation."
+      ],
+      "watchouts": [
+        "Salary was not requested in the application; expected salary target remains SGD 6,500/month or above."
+      ],
+      "keywords": [
+        "Technical sales",
+        "Pre-sales",
+        "Manufacturing AI",
+        "Solutioning",
+        "Customer demos",
+        "Junior"
+      ],
+      "resume_angle": "Position as a customer-facing cloud/AI solution architect with manufacturing data analytics and finance data workflow exposure.",
+      "next_action": "Monitor LinkedIn application status and prepare a short story around manufacturing AI demos and stakeholder discovery."
+    },
+    {
+      "rank": 2,
+      "title": "Technical Sales Executive / Junior Solutions Engineer",
+      "company": "sensen.ai",
+      "location": "Singapore",
+      "workplace": "On-site",
+      "source": "LinkedIn Easy Apply",
+      "url": "https://www.linkedin.com/jobs/view/4415496165/",
+      "status": "Applied",
+      "priority": "High",
+      "role_lane": "Junior Solutions Engineering / Technical Sales",
+      "fit_score": 89,
+      "freshness": "Applied on 2026-06-02 via LinkedIn Easy Apply.",
+      "why_match": [
+        "1-3 year pre-sales / solutions engineering requirement matches current cloud SA and Huawei pre-sales experience.",
+        "Customer demos, POC scoping, tender responses, and requirement translation are direct matches.",
+        "AI product deployment angle connects with Alibaba Cloud Model Studio/Qwen exposure."
+      ],
+      "watchouts": [
+        "JD requested a short note about a complex POC/demo, but LinkedIn Easy Apply did not provide a note field."
+      ],
+      "keywords": [
+        "Solutions engineering",
+        "Technical sales",
+        "POC",
+        "Tender",
+        "AI deployment",
+        "Customer requirements"
+      ],
+      "resume_angle": "Lead with customer-facing POCs, demos, requirement discovery, and technical proposal ownership.",
+      "next_action": "If a recruiter contact appears, send a follow-up note about a complex cloud/AI customer demo or POC."
+    },
+    {
+      "rank": 3,
+      "title": "Technical Consultant - ERP/MES implementation",
+      "company": "Genpact",
+      "location": "Singapore",
+      "workplace": "On-site",
+      "source": "LinkedIn Easy Apply",
+      "url": "https://www.linkedin.com/jobs/view/4382911976/",
+      "status": "Applied",
+      "priority": "Medium",
+      "role_lane": "ERP/MES Implementation Consultant",
+      "fit_score": 82,
+      "freshness": "Applied on 2026-06-02 via LinkedIn Easy Apply.",
+      "why_match": [
+        "Open to fresh graduates / no prior experience, so level is realistic.",
+        "ERP/MES implementation, workflow validation, data quality, testing, documentation, and user support connect with Intel and Shimano experience.",
+        "Manufacturing client context helps bridge Shimano manufacturing analytics into implementation consulting."
+      ],
+      "watchouts": [
+        "Application confirmed willingness for on-site work and monthly assigned 8-hour shifts; expected salary submitted as 6500."
+      ],
+      "keywords": [
+        "ERP",
+        "MES",
+        "Implementation",
+        "Manufacturing",
+        "Data quality",
+        "User support"
+      ],
+      "resume_angle": "Frame Shimano as manufacturing analytics and Intel as finance data pipeline/workflow validation.",
+      "next_action": "Be ready to explain system implementation support, data validation, and shift comfort if contacted."
+    },
+    {
+      "rank": 4,
       "title": "Junior Solution Architect - OpenShift",
       "company": "Red Hat",
       "location": "Singapore",
       "workplace": "Hybrid",
       "source": "Red Hat Workday",
       "url": "https://redhat.wd5.myworkdayjobs.com/en-US/jobs/job/Singapore/Junior-Solution-Architect--Openshift_R-054546",
-      "status": "Ready to apply",
+      "status": "Blocked - Workday account/privacy consent",
       "priority": "High",
       "role_lane": "Junior Solution Architecture / OpenShift",
       "fit_score": 92,
@@ -68,7 +164,7 @@
         "Cloud, automation, and AI learning path gives a realistic bridge from current cloud SA experience into deeper platform architecture."
       ],
       "watchouts": [
-        "Prepare OpenShift/Kubernetes basics and one customer-facing cloud architecture story before applying."
+        "Do not create account or accept privacy/cross-border transfer terms without user approval."
       ],
       "keywords": [
         "Red Hat",
@@ -79,17 +175,17 @@
         "Pre-sales"
       ],
       "resume_angle": "Lead with Alibaba/Huawei customer-facing SA work, POC support, demos, and learning agility; frame Intel as data-platform foundation.",
-      "next_action": "Apply first. Tailor cover note around customer discovery, demos, and desire to grow into open-source cloud architecture."
+      "next_action": "Needs user approval to create/sign into Red Hat Workday and accept privacy/cross-border data terms."
     },
     {
-      "rank": 2,
+      "rank": 5,
       "title": "Junior Solution Architect, Red Hat Enterprise Linux",
       "company": "Red Hat",
       "location": "Singapore",
       "workplace": "Hybrid",
       "source": "Red Hat Workday",
       "url": "https://redhat.wd5.myworkdayjobs.com/en-US/Jobs/job/Junior-Solution-Architect--Red-Hat-Enterprise-Linux_R-054545",
-      "status": "Ready to apply",
+      "status": "Blocked - Workday account/privacy consent",
       "priority": "High",
       "role_lane": "Junior Solution Architecture / Linux",
       "fit_score": 90,
@@ -100,7 +196,7 @@
         "Good platform credibility path: Linux + enterprise architecture + customer-facing solutioning."
       ],
       "watchouts": [
-        "Need to brush up Linux fundamentals; do not overclaim hands-on admin depth."
+        "Do not create account or accept privacy/cross-border transfer terms without user approval."
       ],
       "keywords": [
         "Red Hat",
@@ -111,17 +207,17 @@
         "Customer account team"
       ],
       "resume_angle": "Position as a cloud vendor SA who wants to deepen infrastructure fundamentals and enterprise open-source solutioning.",
-      "next_action": "Apply after OpenShift or as second Red Hat choice; keep one concise Linux/cloud learning story ready."
+      "next_action": "Needs user approval to create/sign into Red Hat Workday and accept privacy/cross-border data terms."
     },
     {
-      "rank": 3,
+      "rank": 6,
       "title": "Associate Finance Presales Solution Advisor",
       "company": "SAP",
       "location": "Singapore",
       "workplace": "Hybrid",
-      "source": "SAP / JobStreet mirror",
-      "url": "https://sg.jobstreet.com/job/88075021",
-      "status": "Ready to apply",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4214272481/",
+      "status": "Closed - not accepting applications",
       "priority": "High",
       "role_lane": "Finance Presales / Enterprise Software",
       "fit_score": 89,
@@ -132,7 +228,7 @@
         "Graduate / associate career status is much closer to target level than manager-level AI architect roles."
       ],
       "watchouts": [
-        "Less AI-heavy; frame it as finance data + enterprise cloud/software presales rather than pure AI/FDE."
+        "Closed on LinkedIn despite strong finance presales fit."
       ],
       "keywords": [
         "SAP",
@@ -143,10 +239,10 @@
         "Customer advisory"
       ],
       "resume_angle": "Lead with Intel finance analytics and SAP/SAP HANA validation, then connect to Huawei/Alibaba pre-sales and demo experience.",
-      "next_action": "Apply with a finance-presales version of the resume and a short note about bridging finance users with technical teams."
+      "next_action": "Do not apply; LinkedIn shows the role is no longer accepting applications."
     },
     {
-      "rank": 4,
+      "rank": 7,
       "title": "Solution Architect (GenAI), BytePlus",
       "company": "ByteDance / BytePlus",
       "location": "Singapore",
@@ -178,7 +274,7 @@
       "next_action": "Apply through official ByteDance login when account access is ready; prepare BytePlus-specific cover note."
     },
     {
-      "rank": 5,
+      "rank": 8,
       "title": "AI Product Solution Architect, BytePlus",
       "company": "ByteDance / BytePlus",
       "location": "Singapore",
@@ -210,14 +306,14 @@
       "next_action": "Apply through official Join ByteDance listing after the GenAI SA application."
     },
     {
-      "rank": 6,
+      "rank": 9,
       "title": "Solutions Architect Graduate (BytePlus) - 2026 Start (BS/MS)",
       "company": "ByteDance / BytePlus",
       "location": "Singapore",
       "workplace": "On-site or hybrid not confirmed",
       "source": "Join ByteDance",
       "url": "https://joinbytedance.com/search/7605791585172523269",
-      "status": "Research first",
+      "status": "Skipped - coding-heavy",
       "priority": "High",
       "role_lane": "Graduate AI Solution Architecture / Agentic AI",
       "fit_score": 84,
@@ -228,7 +324,7 @@
         "Alibaba/Qwen ecosystem exposure gives a credible vendor-AI parallel."
       ],
       "watchouts": [
-        "The role is hands-on: Python, LangChain/LlamaIndex, Docker/Kubernetes, and production implementation are called out; coding depth may be the main gap."
+        "Official JD requires production-quality Python/FastAPI/PyTorch, Docker/Kubernetes, and agent framework implementation."
       ],
       "keywords": [
         "BytePlus",
@@ -239,17 +335,17 @@
         "Python"
       ],
       "resume_angle": "Frame as AI solution architect / pre-sales with light prototyping exposure; do not overclaim production engineering depth.",
-      "next_action": "Research interview expectations first. Apply only with a simple AI agent demo or project story ready."
+      "next_action": "Do not auto-apply under the current coding-depth filter; keep as research only."
     },
     {
-      "rank": 7,
+      "rank": 10,
       "title": "Junior Consultant (Linux, AI, Graduate program)",
       "company": "Red Hat",
       "location": "Singapore",
       "workplace": "Hybrid",
       "source": "Red Hat Workday",
       "url": "https://redhat.wd5.myworkdayjobs.com/en-US/Jobs/job/Junior-Consultant--Graduate-FASTER-program-_R-054541",
-      "status": "Research first",
+      "status": "Blocked - Workday account/privacy consent",
       "priority": "High",
       "role_lane": "Graduate Technical Consulting / Linux + AI",
       "fit_score": 83,
@@ -260,7 +356,7 @@
         "Customer projects and solution delivery are adjacent to PoC and migration planning work."
       ],
       "watchouts": [
-        "More delivery/implementation than pre-sales; needs honest Linux and hands-on learning positioning."
+        "Do not create account or accept privacy/cross-border transfer terms without user approval."
       ],
       "keywords": [
         "Red Hat",
@@ -271,10 +367,10 @@
         "Delivery"
       ],
       "resume_angle": "Position around customer-facing cloud delivery support, POC execution, and fast learning across enterprise platforms.",
-      "next_action": "Research as alternate Red Hat route; apply after the two Junior SA roles if bandwidth allows."
+      "next_action": "Needs user approval to create/sign into Red Hat Workday and accept privacy/cross-border data terms."
     },
     {
-      "rank": 8,
+      "rank": 11,
       "title": "Professional Services A2C (Associate to Consultant)",
       "company": "Amazon Web Services",
       "location": "Singapore",
@@ -289,7 +385,7 @@
       "why_match": [
         "A2C is explicitly for grads / early-career consultants, so level is right.",
         "Cloud consulting, business acumen, security/data/cloud tracks, and customer projects map to cloud SA trajectory.",
-        "Master\u2019s completed July 2025 may fit the completed-within-12-months condition as of June 2026."
+        "Master’s completed July 2025 may fit the completed-within-12-months condition as of June 2026."
       ],
       "watchouts": [
         "Listing says candidates must be able to legally work in Singapore. Do not auto-apply until work authorization eligibility is clear."
@@ -306,7 +402,7 @@
       "next_action": "Check work authorization question first; apply only if the form permits non-PR/non-citizen applicants legally."
     },
     {
-      "rank": 9,
+      "rank": 12,
       "title": "Product Solution Architect - ModelArk",
       "company": "ByteDance / BytePlus",
       "location": "Singapore",
@@ -337,7 +433,7 @@
       "next_action": "Research first; apply after preparing a short model API / enterprise AI platform talking point."
     },
     {
-      "rank": 10,
+      "rank": 13,
       "title": "Forward Deployed Engineer, BytePlus",
       "company": "ByteDance / BytePlus",
       "location": "Singapore",
@@ -368,7 +464,7 @@
       "next_action": "Research only. Build one lightweight AI agent demo before applying."
     },
     {
-      "rank": 11,
+      "rank": 14,
       "title": "Advisory - Consulting, Forensic (Solutions Architect) | Graduate Associate 2026",
       "company": "KPMG Singapore",
       "location": "Singapore",
@@ -399,7 +495,7 @@
       "next_action": "Research first; apply if willing to take a more hands-on systems/application path."
     },
     {
-      "rank": 12,
+      "rank": 15,
       "title": "AI Deployment Strategist",
       "company": "Mistral AI",
       "location": "Singapore",
@@ -430,7 +526,7 @@
       "next_action": "Pause until work authorization and file-upload/applicant-form blockers are clear."
     },
     {
-      "rank": 13,
+      "rank": 16,
       "title": "AI Solution Architect",
       "company": "PwC Singapore",
       "location": "Singapore",
@@ -461,7 +557,7 @@
       "next_action": "Do not auto-apply unless Mark explicitly approves a stretch application."
     },
     {
-      "rank": 14,
+      "rank": 17,
       "title": "Data and AI Solution Architect",
       "company": "Microsoft",
       "location": "Singapore",
@@ -491,7 +587,7 @@
       "next_action": "Do not auto-apply in early-career workflow; monitor only."
     },
     {
-      "rank": 15,
+      "rank": 18,
       "title": "Sales Solution Architect AI/ML",
       "company": "Snowflake",
       "location": "Singapore",
@@ -525,26 +621,25 @@
   "pipeline": [
     {
       "stage": "Apply next",
-      "count": 5,
+      "count": 2,
       "items": [
-        "Red Hat - Junior Solution Architect, OpenShift",
-        "Red Hat - Junior Solution Architect, RHEL",
-        "SAP - Associate Finance Presales Solution Advisor",
         "BytePlus - Solution Architect (GenAI)",
         "BytePlus - AI Product Solution Architect"
       ]
     },
     {
       "stage": "Research first",
-      "count": 7,
+      "count": 9,
       "items": [
-        "BytePlus - Solutions Architect Graduate 2026",
+        "Red Hat - Junior Solution Architect, OpenShift (blocked by account/privacy consent)",
+        "Red Hat - Junior Solution Architect, RHEL (blocked by account/privacy consent)",
+        "SAP - Associate Finance Presales Solution Advisor (closed on LinkedIn)",
+        "BytePlus - Solutions Architect Graduate 2026 (coding-heavy)",
         "Red Hat - Junior Consultant (Linux, AI, Graduate program)",
         "AWS - Professional Services A2C",
         "BytePlus - ModelArk Product Solution Architect",
         "BytePlus - Forward Deployed Engineer",
-        "KPMG - Forensic Solutions Architect Graduate Associate",
-        "Mistral AI - AI Deployment Strategist"
+        "KPMG - Forensic Solutions Architect Graduate Associate"
       ]
     },
     {
@@ -557,5 +652,118 @@
       ]
     }
   ],
-  "source_note": "Manually curated from official company career pages, Join ByteDance official listings, Amazon Jobs, Red Hat Workday, KPMG Careers, and public job mirrors on 2026-06-02. Auto-apply should prioritize early-career IC roles and skip manager-level or work-authorization-blocked roles."
+  "source_note": "Updated after live applications on 2026-06-02. Applied via LinkedIn Easy Apply where all required answers were known/truthful; skipped or blocked roles with account/consent, closed listings, manager/senior level, or coding-heavy requirements.",
+  "applications_today": [
+    {
+      "title": "Data & AI Solution Architect",
+      "company": "Singdata",
+      "location": "Singapore",
+      "status": "Applied",
+      "applied_at": "2026-06-02",
+      "url": "https://www.linkedin.com/jobs/view/4419021538/",
+      "fit_score": 90,
+      "why_it_matched": [
+        "Data + AI lakehouse solution architecture",
+        "AI Agent use case discovery",
+        "Mandarin and English requirement",
+        "Databricks/Snowflake/Azure overlap from Intel"
+      ]
+    },
+    {
+      "rank": 1,
+      "title": "Technical Sales Engineer Executive",
+      "company": "SGInnovate / Innowave Tech",
+      "location": "Singapore",
+      "workplace": "On-site",
+      "source": "LinkedIn Easy Apply",
+      "url": "https://www.linkedin.com/jobs/view/4394754966/",
+      "status": "Applied",
+      "priority": "High",
+      "role_lane": "Junior Technical Sales / Pre-sales Solutioning",
+      "fit_score": 91,
+      "freshness": "Applied on 2026-06-02 via LinkedIn Easy Apply.",
+      "why_match": [
+        "Junior executive role with 0-2 years / fresh graduate eligibility and on-the-job training.",
+        "AI manufacturing solutioning, customer demos, pre-sales design, and presentation work align with Alibaba/Huawei SA experience.",
+        "Manufacturing AI context connects well with Shimano manufacturing analytics and Intel data/workflow validation."
+      ],
+      "watchouts": [
+        "Salary was not requested in the application; expected salary target remains SGD 6,500/month or above."
+      ],
+      "keywords": [
+        "Technical sales",
+        "Pre-sales",
+        "Manufacturing AI",
+        "Solutioning",
+        "Customer demos",
+        "Junior"
+      ],
+      "resume_angle": "Position as a customer-facing cloud/AI solution architect with manufacturing data analytics and finance data workflow exposure.",
+      "next_action": "Monitor LinkedIn application status and prepare a short story around manufacturing AI demos and stakeholder discovery."
+    },
+    {
+      "rank": 2,
+      "title": "Technical Sales Executive / Junior Solutions Engineer",
+      "company": "sensen.ai",
+      "location": "Singapore",
+      "workplace": "On-site",
+      "source": "LinkedIn Easy Apply",
+      "url": "https://www.linkedin.com/jobs/view/4415496165/",
+      "status": "Applied",
+      "priority": "High",
+      "role_lane": "Junior Solutions Engineering / Technical Sales",
+      "fit_score": 89,
+      "freshness": "Applied on 2026-06-02 via LinkedIn Easy Apply.",
+      "why_match": [
+        "1-3 year pre-sales / solutions engineering requirement matches current cloud SA and Huawei pre-sales experience.",
+        "Customer demos, POC scoping, tender responses, and requirement translation are direct matches.",
+        "AI product deployment angle connects with Alibaba Cloud Model Studio/Qwen exposure."
+      ],
+      "watchouts": [
+        "JD requested a short note about a complex POC/demo, but LinkedIn Easy Apply did not provide a note field."
+      ],
+      "keywords": [
+        "Solutions engineering",
+        "Technical sales",
+        "POC",
+        "Tender",
+        "AI deployment",
+        "Customer requirements"
+      ],
+      "resume_angle": "Lead with customer-facing POCs, demos, requirement discovery, and technical proposal ownership.",
+      "next_action": "If a recruiter contact appears, send a follow-up note about a complex cloud/AI customer demo or POC."
+    },
+    {
+      "rank": 3,
+      "title": "Technical Consultant - ERP/MES implementation",
+      "company": "Genpact",
+      "location": "Singapore",
+      "workplace": "On-site",
+      "source": "LinkedIn Easy Apply",
+      "url": "https://www.linkedin.com/jobs/view/4382911976/",
+      "status": "Applied",
+      "priority": "Medium",
+      "role_lane": "ERP/MES Implementation Consultant",
+      "fit_score": 82,
+      "freshness": "Applied on 2026-06-02 via LinkedIn Easy Apply.",
+      "why_match": [
+        "Open to fresh graduates / no prior experience, so level is realistic.",
+        "ERP/MES implementation, workflow validation, data quality, testing, documentation, and user support connect with Intel and Shimano experience.",
+        "Manufacturing client context helps bridge Shimano manufacturing analytics into implementation consulting."
+      ],
+      "watchouts": [
+        "Application confirmed willingness for on-site work and monthly assigned 8-hour shifts; expected salary submitted as 6500."
+      ],
+      "keywords": [
+        "ERP",
+        "MES",
+        "Implementation",
+        "Manufacturing",
+        "Data quality",
+        "User support"
+      ],
+      "resume_angle": "Frame Shimano as manufacturing analytics and Intel as finance data pipeline/workflow validation.",
+      "next_action": "Be ready to explain system implementation support, data validation, and shift comfort if contacted."
+    }
+  ]
 }
