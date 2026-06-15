@@ -1,4 +1,4 @@
-**SG Tech Market Radar — Snapshot 2026-06-08**
+**SG Tech Market Radar — Snapshot 2026-06-15**
 
 - Jobs analyzed: `520`
 - Hottest tracked topic: `Software Engineer`
