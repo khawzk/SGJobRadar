@@ -1,6 +1,6 @@
-**SG Tech Market Radar — Snapshot 2026-06-22**
+**SG Tech Market Radar — Snapshot 2026-06-29**
 
-- Jobs analyzed: `529`
+- Jobs analyzed: `527`
 - Hottest tracked topic: `Software Engineer`
 - Top skillset: `Cloud & DevOps`
 - AI direction to dive deeper: `Generative AI`
